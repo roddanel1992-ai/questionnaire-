@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS DVA-C02 Certification Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Home Page -->
+        <div id="home-page" class="page active">
+            <div class="header">
+                <div class="aws-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" fill="white">
+                        <!-- ROD Text -->
+                        <text x="100" y="45" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white" letter-spacing="8">ROD</text>
+                        
+                        <!-- Glasses -->
+                        <g transform="translate(100, 75)">
+                            <!-- Left lens -->
+                            <ellipse cx="-25" cy="0" rx="20" ry="18" fill="none" stroke="white" stroke-width="3"/>
+                            <ellipse cx="-25" cy="0" rx="15" ry="13" fill="white" opacity="0.2"/>
+                            
+                            <!-- Right lens -->
+                            <ellipse cx="25" cy="0" rx="20" ry="18" fill="none" stroke="white" stroke-width="3"/>
+                            <ellipse cx="25" cy="0" rx="15" ry="13" fill="white" opacity="0.2"/>
+                            
+                            <!-- Bridge -->
+                            <path d="M -5 -2 Q 0 -5 5 -2" fill="none" stroke="white" stroke-width="3"/>
+                            
+                            <!-- Left temple -->
+                            <line x1="-45" y1="0" x2="-60" y2="2" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                            
+                            <!-- Right temple -->
+                            <line x1="45" y1="0" x2="60" y2="2" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                            
+                            <!-- Reflection effects -->
+                            <ellipse cx="-30" cy="-8" rx="4" ry="3" fill="white" opacity="0.6"/>
+                            <ellipse cx="20" cy="-8" rx="4" ry="3" fill="white" opacity="0.6"/>
+                        </g>
+                    </svg>
+                </div>
+                <h1>AWS Certified Developer - Associate</h1>
+                <p class="subtitle">DVA-C02 Certification Practice Exams</p>
+            </div>
+            
+            <div class="main-content">
+                <div class="exam-info-card">
+                    <div class="info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="12" y1="8" x2="12" y2="12"></line>
+                            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                        </svg>
+                    </div>
+                    <div class="info-content">
+                        <h2>Exam Information</h2>
+                        <ul class="info-list">
+                            <li><strong>10 questions</strong> per exam</li>
+                            <li><strong>12 minutes</strong> time limit</li>
+                            <li><strong>Multiple choice</strong> format</li>
+                            <li><strong>Instant results</strong> with explanations</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <button class="btn-primary btn-large" id="start-exam-btn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                    </svg>
+                    Start Practice Exam
+                </button>
+
+                <div class="features">
+                    <div class="feature-card">
+                        <div class="feature-icon">📚</div>
+                        <h3>139 Questions</h3>
+                        <p>Comprehensive question bank covering all DVA-C02 domains</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⏱️</div>
+                        <h3>Timed Practice</h3>
+                        <p>Realistic exam conditions with 12-minute time limit</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Detailed Results</h3>
+                        <p>Comprehensive feedback with explanations for each question</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Page -->
+        <div id="quiz-page" class="page">
+            <div class="quiz-header">
+                <div class="timer-container">
+                    <svg class="timer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <span id="timer">12:00</span>
+                </div>
+                <div class="progress-container">
+                    <span class="progress-text">Question <span id="current-question">1</span> of <span id="total-questions">10</span></span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quiz-content">
+                <div class="question-card">
+                    <h2 class="question-text" id="question-text"></h2>
+                    <div class="options-container" id="options-container"></div>
+                </div>
+
+                <div class="quiz-navigation">
+                    <button class="btn-secondary" id="prev-btn" disabled>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                        Previous
+                    </button>
+                    <button class="btn-primary" id="next-btn">
+                        Next
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Page -->
+        <div id="results-page" class="page">
+            <div class="results-container">
+                <div class="results-header">
+                    <div class="score-circle" id="score-circle">
+                        <svg viewBox="0 0 200 200">
+                            <circle cx="100" cy="100" r="90" fill="none" stroke="#eee" stroke-width="20"></circle>
+                            <circle id="score-progress" cx="100" cy="100" r="90" fill="none" stroke="#FF9900" stroke-width="20" 
+                                    stroke-dasharray="565" stroke-dashoffset="565" transform="rotate(-90 100 100)"></circle>
+                        </svg>
+                        <div class="score-content">
+                            <div class="score-percentage" id="score-percentage">0%</div>
+                            <div class="score-label">Score</div>
+                        </div>
+                    </div>
+                    <h1 id="results-title">Exam Complete!</h1>
+                    <p class="results-summary" id="results-summary"></p>
+                </div>
+
+                <div class="results-details" id="results-details"></div>
+
+                <div class="results-actions">
+                    <button class="btn-secondary" id="review-btn">Review Answers</button>
+                    <button class="btn-primary" id="retake-btn">Take Another Exam</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Review Page -->
+        <div id="review-page" class="page">
+            <div class="review-header">
+                <h1>Answer Review</h1>
+                <button class="btn-secondary" id="back-to-results-btn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                    Back to Results
+                </button>
+            </div>
+            <div class="review-container" id="review-container"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
