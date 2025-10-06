@@ -1,25 +1,38 @@
-# AWS DVA-C02 Certification Practice Website
+# Cloud Certification Practice - AWS & Azure
 
-A modern, interactive web application for practicing AWS Certified Developer - Associate (DVA-C02) certification exam questions.
+A modern, interactive web application for practicing cloud certification exams for both **AWS** and **Azure** platforms.
+
+## 🌟 Certifications Covered
+
+### AWS (Amazon Web Services)
+- ☁️ **AWS Certified Developer - Associate (DVA-C02)** - 122 questions
+- 🤖 **AWS Certified AI Practitioner (AIF-C01)** - 49 questions
+
+### Azure (Microsoft)
+- ☁️ **Microsoft Certified: Azure Developer Associate (AZ-204)** - 21 questions
+- 🤖 **Microsoft Certified: Azure AI Engineer Associate (AI-102)** - 21 questions
 
 ## Features
 
-✨ **122 Professional Questions** - Cleaned and validated DVA-C02 exam questions
+✨ **Multi-Cloud Platform** - Practice for both AWS and Azure certifications
 ⏱️ **Timed Practice Exams** - 12-minute time limit for 10 random questions
 📊 **Instant Results** - Detailed score breakdown and performance metrics
 📚 **Answer Explanations** - Learn from detailed explanations for each question
 🎨 **Beautiful Modern UI** - Responsive design that works on all devices
 🔄 **Random Question Selection** - Different questions each time you practice
+🔤 **Letter-Based Options** - Professional exam format (A, B, C, D, E, F)
+✅ **Multiple Selection** - Support for questions with multiple correct answers
 🧪 **Full Test Coverage** - Unit & E2E tests for production quality
-✅ **CI/CD Pipeline** - Automated testing and deployment
+🚀 **CI/CD Pipeline** - Automated testing and deployment
 
 ## How to Use
 
 ### Option 1: Open Directly in Browser
 1. Simply open `index.html` in your web browser
-2. Click "Start Practice Exam"
-3. Answer the 10 questions within 12 minutes
-4. Review your results and explanations
+2. Choose your certification path (AWS or Azure)
+3. Click "Start Practice" on your selected certification
+4. Answer the 10 questions within 12 minutes
+5. Review your results and explanations
 
 ### Option 2: Run with a Local Server
 ```bash
@@ -34,7 +47,7 @@ npx http-server
 
 ## Exam Structure
 
-- **Questions per Exam**: 10 questions (randomly selected from 122)
+- **Questions per Exam**: 10 questions (randomly selected)
 - **Time Limit**: 12 minutes
 - **Passing Score**: 70%
 - **Question Types**: Multiple choice (2-6 options, letters A-F)
@@ -43,7 +56,7 @@ npx http-server
 
 ## Topics Covered
 
-The question bank covers all major DVA-C02 domains:
+### AWS Certified Developer - Associate (DVA-C02)
 
 1. **Development with AWS Services** (32%)
    - Serverless applications (Lambda, API Gateway, Step Functions)
@@ -65,29 +78,63 @@ The question bank covers all major DVA-C02 domains:
    - Performance optimization
    - Cost optimization
 
+### Azure Developer Associate (AZ-204)
+
+- Developing Azure compute solutions (App Service, Functions, Containers)
+- Azure storage solutions (Blob, Cosmos DB, Table Storage)
+- Azure security implementations (Key Vault, Managed Identity)
+- Monitoring, troubleshooting, and optimization
+- Azure integrations and messaging (Service Bus, Event Hubs)
+
+### AWS Certified AI Practitioner (AIF-C01)
+
+- AWS AI/ML services fundamentals
+- Amazon SageMaker
+- Computer Vision, NLP, and Speech services
+- Responsible AI principles
+- AI model deployment and monitoring
+
+### Azure AI Engineer Associate (AI-102)
+
+- Azure Cognitive Services (Vision, Speech, Language)
+- Azure Machine Learning
+- Conversational AI (Bot Service, LUIS)
+- Computer Vision and Custom Vision
+- Form Recognizer and Document Intelligence
+- Responsible AI practices
+
 ## File Structure
 
 ```
 AWS exam/
-├── index.html               # Main HTML file
-├── style.css                # Styling and responsive design
-├── app.js                   # Application logic and interactivity
-├── questions_full.json      # Question bank (122 cleaned questions)
+├── index.html                      # Main HTML file
+├── style.css                       # Styling and responsive design
+├── app.js                          # Application logic and interactivity
+├── questions_aws_developer.json    # AWS Developer questions (122)
+├── questions_aws_ai.json          # AWS AI Practitioner questions (49)
+├── questions_azure_developer.json # Azure Developer questions (21)
+├── questions_azure_ai.json        # Azure AI Engineer questions (21)
 ├── tests/
 │   ├── unit/
-│   │   └── app.test.js     # Unit tests for business logic
+│   │   └── app.test.js            # Unit tests for business logic
 │   └── e2e/
-│       └── quiz.spec.js    # End-to-end user flow tests
+│       └── quiz.spec.js           # End-to-end user flow tests
 ├── .github/
 │   └── workflows/
-│       └── test.yml        # CI/CD pipeline
-├── package.json            # Node dependencies and scripts
-├── playwright.config.js    # E2E test configuration
-├── extract_full.py         # Question extraction script
-└── README.md               # This file
+│       └── test.yml               # CI/CD pipeline
+├── package.json                   # Node dependencies and scripts
+├── playwright.config.js           # E2E test configuration
+├── extract_full.py                # Question extraction script
+└── README.md                      # This file
 ```
 
 ## Features in Detail
+
+### Certification Selection
+- Choose between AWS and Azure providers
+- Select Developer or AI certification paths
+- See question counts and exam details
+- Beautiful card-based UI with provider branding
 
 ### Timer
 - 12-minute countdown timer
@@ -151,16 +198,7 @@ See [TESTING.md](TESTING.md) for detailed testing documentation.
 
 ## Customization
 
-### Extracting More Questions
-
-To re-extract questions from the PDF files:
-
-1. Add your PDF files to the `exam_questions with answers/` folder
-2. Run the extraction script:
-```bash
-python extract_full.py
-```
-3. The script will generate `questions_full.json` with all extracted questions
+### Adding Questions
 
 Each question follows this format:
 
@@ -180,23 +218,17 @@ Each question follows this format:
 
 ### Changing Time Limit
 
-In `app.js`, modify the `timeRemaining` variable (line 9):
+In `app.js`, modify the `timeRemaining` variable:
 ```javascript
 let timeRemaining = 720; // 12 minutes in seconds
 ```
 
 ### Changing Number of Questions
 
-In `app.js`, modify the `startExam()` function (line 49):
+In `app.js`, modify the `startExam()` function:
 ```javascript
 currentExam = selectRandomQuestions(allQuestions, 10); // Change 10 to your desired number
 ```
-
-### Changing Pass Threshold
-
-The passing score is displayed in the results but not enforced. To change the display:
-1. In `app.js`, find the `displayResults()` function
-2. Modify the comparison on line 156: `if (percentage >= 70)`
 
 ## Browser Compatibility
 
@@ -221,10 +253,19 @@ The application is fully responsive and works great on:
 3. **Time Management** - Aim for ~1 minute per question
 4. **Identify Weak Areas** - Focus on topics where you score low
 5. **Retake Exams** - Questions are randomly selected each time
+6. **Cross-Platform Learning** - Compare AWS and Azure approaches
+
+## Live Demo
+
+🚀 **[View Live Demo on Netlify](https://roddanel1992-ai-questionnaire.netlify.app/)**
+
+## Deployment
+
+This project automatically deploys to Netlify on every push to the main branch via GitHub Actions CI/CD pipeline.
 
 ## License
 
-This project is for educational purposes. AWS and AWS Certified Developer are trademarks of Amazon Web Services.
+This project is for educational purposes. AWS, Azure, and their respective certification names are trademarks of their respective owners.
 
 ## Support
 
@@ -232,5 +273,6 @@ For issues or suggestions, please create an issue in the project repository.
 
 ---
 
-**Good luck with your AWS DVA-C02 certification! 🚀**
+**Good luck with your cloud certification journey! ☁️🚀**
 
+*Supporting both AWS and Azure - Choose your cloud, master your path!*

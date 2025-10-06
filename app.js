@@ -10,17 +10,37 @@ const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F'];
 
 // Certification configurations
 const CERTIFICATIONS = {
-    'developer': {
+    'aws-developer': {
         name: 'AWS Certified Developer - Associate',
         code: 'DVA-C02',
-        questionsFile: 'questions_full.json',
-        description: 'DVA-C02 Certification Practice Exams'
+        questionsFile: 'questions_aws_developer.json',
+        description: 'DVA-C02 Certification Practice Exams',
+        color: '#FF9900',
+        provider: 'AWS'
     },
-    'ai-practitioner': {
+    'aws-ai': {
         name: 'AWS Certified AI Practitioner',
         code: 'AIF-C01',
-        questionsFile: 'questions_ai.json',
-        description: 'AIF-C01 Certification Practice Exams'
+        questionsFile: 'questions_aws_ai.json',
+        description: 'AIF-C01 Certification Practice Exams',
+        color: '#8B5CF6',
+        provider: 'AWS'
+    },
+    'azure-developer': {
+        name: 'Microsoft Certified: Azure Developer Associate',
+        code: 'AZ-204',
+        questionsFile: 'questions_azure_developer.json',
+        description: 'AZ-204 Certification Practice Exams',
+        color: '#0078D4',
+        provider: 'Azure'
+    },
+    'azure-ai': {
+        name: 'Microsoft Certified: Azure AI Engineer Associate',
+        code: 'AI-102',
+        questionsFile: 'questions_azure_ai.json',
+        description: 'AI-102 Certification Practice Exams',
+        color: '#00A4EF',
+        provider: 'Azure'
     }
 };
 
