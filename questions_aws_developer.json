@@ -1377,5 +1377,1919 @@
     ],
     "answer": "Option A",
     "explanation": "This solution allows the developer to create and delete branches in AWS CodeCommit by granting the codecommit:CreateBranch and codecommit:DeleteBranch permissions. These are the minimum permissions required for this task, following the principle of least privilege. Option B grants too many permissions, such codecommit:Put*, which allows the developer to create, update, or delete any resource in CodeCommit. Option C grants too few as permissions, such as codecommit:Update*, which does not allow the developer to create or delete branches. Option D grants all permissions, such as codecommit:*, which is not secure or recommended. Reference: [AWS CodeCommit Permissions Reference], [Create a Branch (AWS CLI)]"
+  },
+  {
+    "question": "What is the minimum memory allocation for a Lambda function?",
+    "options": [
+      "64 MB",
+      "128 MB",
+      "256 MB",
+      "512 MB"
+    ],
+    "answer": "128 MB",
+    "explanation": "Lambda functions can be configured with memory from 128 MB to 10,240 MB in 1 MB increments."
+  },
+  {
+    "question": "How does Lambda charge for compute time?",
+    "options": [
+      "Per invocation only",
+      "Per GB-second",
+      "Per hour",
+      "Flat monthly rate"
+    ],
+    "answer": "Per GB-second",
+    "explanation": "Lambda charges based on the number of requests and the duration (GB-second) your code executes."
+  },
+  {
+    "question": "What is a Lambda Layer?",
+    "options": [
+      "A networking component",
+      "A shared code/library package",
+      "A deployment stage",
+      "An execution environment"
+    ],
+    "answer": "A shared code/library package",
+    "explanation": "Lambda Layers let you manage common dependencies separately from your function code."
+  },
+  {
+    "question": "Which environment variable contains the Lambda function name?",
+    "options": [
+      "LAMBDA_NAME",
+      "AWS_LAMBDA_FUNCTION_NAME",
+      "FUNCTION_NAME",
+      "AWS_FUNCTION"
+    ],
+    "answer": "AWS_LAMBDA_FUNCTION_NAME",
+    "explanation": "AWS_LAMBDA_FUNCTION_NAME is an automatically set environment variable containing the function name."
+  },
+  {
+    "question": "What is Lambda's /tmp directory size limit?",
+    "options": [
+      "256 MB",
+      "512 MB",
+      "1 GB",
+      "10 GB"
+    ],
+    "answer": "512 MB",
+    "explanation": "Lambda provides 512 MB of /tmp disk space for temporary files during execution."
+  },
+  {
+    "question": "How can you make a Lambda function respond faster to requests?",
+    "options": [
+      "Increase memory",
+      "Use provisioned concurrency",
+      "Add more environment variables",
+      "Use larger /tmp space"
+    ],
+    "answer": "Use provisioned concurrency",
+    "explanation": "Provisioned concurrency keeps functions initialized and ready to respond in milliseconds."
+  },
+  {
+    "question": "What is the default concurrent execution limit for Lambda per region?",
+    "options": [
+      "100",
+      "500",
+      "1,000",
+      "10,000"
+    ],
+    "answer": "1,000",
+    "explanation": "The default concurrent execution quota is 1,000 per region, but can be increased via service quotas."
+  },
+  {
+    "question": "Which Lambda runtime is NOT officially supported by AWS?",
+    "options": [
+      "Node.js",
+      "Python",
+      "PHP",
+      "Ruby"
+    ],
+    "answer": "PHP",
+    "explanation": "AWS Lambda officially supports Node.js, Python, Ruby, Java, Go, .NET Core, but not PHP natively."
+  },
+  {
+    "question": "How can you pass configuration data to a Lambda function?",
+    "options": [
+      "Environment variables",
+      "Event payload",
+      "Context object",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": "Configuration data can be passed via environment variables, event payload, or context object."
+  },
+  {
+    "question": "What happens if a Lambda function exceeds its timeout?",
+    "options": [
+      "It continues running",
+      "It's terminated and returns an error",
+      "It pauses",
+      "It restarts"
+    ],
+    "answer": "It's terminated and returns an error",
+    "explanation": "When timeout is reached, Lambda terminates the function execution and returns a timeout error."
+  },
+  {
+    "question": "What is the maximum size of a DynamoDB item?",
+    "options": [
+      "100 KB",
+      "256 KB",
+      "400 KB",
+      "1 MB"
+    ],
+    "answer": "400 KB",
+    "explanation": "The maximum item size in DynamoDB is 400 KB, including attribute names and values."
+  },
+  {
+    "question": "What is DynamoDB's default consistency model?",
+    "options": [
+      "Strong",
+      "Eventual",
+      "Immediate",
+      "Causal"
+    ],
+    "answer": "Eventual",
+    "explanation": "DynamoDB uses eventual consistency by default for read operations, offering better performance."
+  },
+  {
+    "question": "How many global secondary indexes can a DynamoDB table have?",
+    "options": [
+      "5",
+      "10",
+      "20",
+      "Unlimited"
+    ],
+    "answer": "20",
+    "explanation": "You can create up to 20 global secondary indexes per table."
+  },
+  {
+    "question": "What is the difference between Query and Scan in DynamoDB?",
+    "options": [
+      "Query is faster and more efficient",
+      "Scan is always better",
+      "They're the same",
+      "Query requires full table access"
+    ],
+    "answer": "Query is faster and more efficient",
+    "explanation": "Query uses indexes and is much more efficient than Scan which reads the entire table."
+  },
+  {
+    "question": "What is DynamoDB Accelerator (DAX)?",
+    "options": [
+      "A backup service",
+      "An in-memory cache",
+      "A replication tool",
+      "A monitoring service"
+    ],
+    "answer": "An in-memory cache",
+    "explanation": "DAX is a fully managed, in-memory cache for DynamoDB that delivers microsecond response times."
+  },
+  {
+    "question": "How can you implement optimistic locking in DynamoDB?",
+    "options": [
+      "Using conditional writes",
+      "Using pessimistic locks",
+      "Using table locks",
+      "It's automatic"
+    ],
+    "answer": "Using conditional writes",
+    "explanation": "Optimistic locking is implemented using conditional writes based on an attribute like version number."
+  },
+  {
+    "question": "What billing model does DynamoDB offer?",
+    "options": [
+      "Provisioned capacity only",
+      "On-demand only",
+      "Both provisioned and on-demand",
+      "Free tier only"
+    ],
+    "answer": "Both provisioned and on-demand",
+    "explanation": "DynamoDB offers both provisioned capacity and on-demand (pay-per-request) billing models."
+  },
+  {
+    "question": "What is a DynamoDB partition key?",
+    "options": [
+      "A unique identifier",
+      "The primary hash key for data distribution",
+      "A sort key",
+      "An index"
+    ],
+    "answer": "The primary hash key for data distribution",
+    "explanation": "The partition key is used to distribute data across partitions for scalability and performance."
+  },
+  {
+    "question": "How does DynamoDB handle capacity when using on-demand mode?",
+    "options": [
+      "You set fixed capacity",
+      "It auto-scales based on traffic",
+      "Manual scaling only",
+      "Limited to 100 RCUs"
+    ],
+    "answer": "It auto-scales based on traffic",
+    "explanation": "On-demand mode automatically scales to accommodate your workload with no capacity planning."
+  },
+  {
+    "question": "What is a Local Secondary Index (LSI)?",
+    "options": [
+      "An index with a different partition key",
+      "An index with the same partition key but different sort key",
+      "A global index",
+      "A cached index"
+    ],
+    "answer": "An index with the same partition key but different sort key",
+    "explanation": "LSIs use the same partition key as the base table but have a different sort key."
+  },
+  {
+    "question": "What are the three types of API Gateway endpoints?",
+    "options": [
+      "Regional, Edge-optimized, Private",
+      "Public, Private, Hybrid",
+      "Standard, Premium, Enterprise",
+      "HTTP, REST, GraphQL"
+    ],
+    "answer": "Regional, Edge-optimized, Private",
+    "explanation": "API Gateway supports Regional, Edge-optimized (using CloudFront), and Private (VPC) endpoints."
+  },
+  {
+    "question": "How can you reduce API Gateway costs?",
+    "options": [
+      "Enable caching",
+      "Use resource policies",
+      "Increase throttling",
+      "Disable logging"
+    ],
+    "answer": "Enable caching",
+    "explanation": "Enabling caching reduces the number of calls to your backend, lowering costs and improving performance."
+  },
+  {
+    "question": "What is API Gateway request validation?",
+    "options": [
+      "Checking IAM permissions",
+      "Validating request parameters and body before invoking backend",
+      "Logging requests",
+      "Rate limiting"
+    ],
+    "answer": "Validating request parameters and body before invoking backend",
+    "explanation": "Request validation checks the request before forwarding to the backend, reducing invalid requests."
+  },
+  {
+    "question": "How do you implement API versioning in API Gateway?",
+    "options": [
+      "Using stages",
+      "Using resource paths",
+      "Using domain names",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": "API versioning can be implemented using stages, resource paths (v1/v2), or custom domain names."
+  },
+  {
+    "question": "What is a Lambda authorizer in API Gateway?",
+    "options": [
+      "A Lambda function that controls access to APIs",
+      "A deployment tool",
+      "A monitoring service",
+      "A caching layer"
+    ],
+    "answer": "A Lambda function that controls access to APIs",
+    "explanation": "Lambda authorizers (formerly custom authorizers) use Lambda functions to control API access."
+  },
+  {
+    "question": "What is the maximum timeout for API Gateway?",
+    "options": [
+      "10 seconds",
+      "30 seconds",
+      "60 seconds",
+      "5 minutes"
+    ],
+    "answer": "30 seconds",
+    "explanation": "API Gateway has a maximum integration timeout of 30 seconds (29 seconds for non-proxy integrations)."
+  },
+  {
+    "question": "How can you enable CORS in API Gateway?",
+    "options": [
+      "Add CORS headers in integration response",
+      "Enable CORS in console",
+      "Use OPTIONS method",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": "CORS requires proper headers, enabling in console, and handling OPTIONS preflight requests."
+  },
+  {
+    "question": "What is API Gateway's throttling burst limit?",
+    "options": [
+      "1,000 requests",
+      "5,000 requests",
+      "10,000 requests",
+      "Unlimited"
+    ],
+    "answer": "5,000 requests",
+    "explanation": "The default burst limit is 5,000 requests across all APIs in an AWS account."
+  },
+  {
+    "question": "What format does API Gateway use for OpenAPI?",
+    "options": [
+      "YAML or JSON",
+      "XML only",
+      "Proprietary format",
+      "Binary"
+    ],
+    "answer": "YAML or JSON",
+    "explanation": "API Gateway supports OpenAPI 3.0 specifications in both YAML and JSON formats."
+  },
+  {
+    "question": "How can you test API Gateway before deployment?",
+    "options": [
+      "Using the Test feature in console",
+      "Using curl",
+      "Using Postman",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": "You can test using the built-in console tester, curl, Postman, or any HTTP client."
+  },
+  {
+    "question": "What is S3 Transfer Acceleration?",
+    "options": [
+      "Faster uploads via CloudFront edge locations",
+      "Parallel uploads",
+      "Compressed transfers",
+      "Direct VPC access"
+    ],
+    "answer": "Faster uploads via CloudFront edge locations",
+    "explanation": "Transfer Acceleration uses CloudFront's edge locations to accelerate uploads to S3."
+  },
+  {
+    "question": "What is an S3 presigned URL used for?",
+    "options": [
+      "Permanent public access",
+      "Temporary access to private objects",
+      "Faster downloads",
+      "Encryption"
+    ],
+    "answer": "Temporary access to private objects",
+    "explanation": "Presigned URLs grant time-limited access to private S3 objects without changing permissions."
+  },
+  {
+    "question": "What is EC2 user data?",
+    "options": [
+      "Metadata about the instance",
+      "Scripts that run at instance launch",
+      "User login credentials",
+      "Instance configuration"
+    ],
+    "answer": "Scripts that run at instance launch",
+    "explanation": "User data allows you to run scripts or commands when an EC2 instance first starts."
+  },
+  {
+    "question": "What is the difference between ECS and EKS?",
+    "options": [
+      "ECS is AWS-native, EKS is Kubernetes-based",
+      "They're the same",
+      "EKS is for Lambda only",
+      "ECS doesn't support containers"
+    ],
+    "answer": "ECS is AWS-native, EKS is Kubernetes-based",
+    "explanation": "ECS is AWS's proprietary container orchestration, while EKS is managed Kubernetes."
+  },
+  {
+    "question": "What is a CloudFormation nested stack?",
+    "options": [
+      "A stack within another stack",
+      "A backup stack",
+      "A testing environment",
+      "A deleted stack"
+    ],
+    "answer": "A stack within another stack",
+    "explanation": "Nested stacks allow you to create reusable templates and manage complex infrastructures."
+  },
+  {
+    "question": "What is a CodePipeline stage?",
+    "options": [
+      "A logical unit containing actions",
+      "A deployment environment",
+      "A testing phase",
+      "A version"
+    ],
+    "answer": "A logical unit containing actions",
+    "explanation": "A stage is a logical unit that contains one or more actions in a pipeline."
+  },
+  {
+    "question": "What is a CloudWatch custom metric?",
+    "options": [
+      "Metrics published by your application",
+      "AWS service metrics",
+      "Free metrics",
+      "Real-time metrics"
+    ],
+    "answer": "Metrics published by your application",
+    "explanation": "Custom metrics allow you to publish application-specific data points to CloudWatch."
+  },
+  {
+    "question": "What is an X-Ray segment?",
+    "options": [
+      "A unit of work recorded by X-Ray",
+      "A network segment",
+      "A time period",
+      "An error log"
+    ],
+    "answer": "A unit of work recorded by X-Ray",
+    "explanation": "Segments represent units of work done by your application, such as HTTP requests."
+  },
+  {
+    "question": "What is an AWS KMS Customer Master Key (CMK)?",
+    "options": [
+      "A password",
+      "A logical representation of an encryption key",
+      "A database key",
+      "An API key"
+    ],
+    "answer": "A logical representation of an encryption key",
+    "explanation": "A CMK is a logical representation of a master key in KMS used for encryption operations."
+  },
+  {
+    "question": "How often can Secrets Manager rotate secrets?",
+    "options": [
+      "Daily",
+      "Configurable (days to years)",
+      "Annually only",
+      "It doesn't rotate"
+    ],
+    "answer": "Configurable (days to years)",
+    "explanation": "Rotation schedules are fully configurable based on your security requirements."
+  },
+  {
+    "question": "What is Cognito Sync used for?",
+    "options": [
+      "Syncing user data across devices",
+      "Authenticating users",
+      "Password recovery",
+      "MFA"
+    ],
+    "answer": "Syncing user data across devices",
+    "explanation": "Cognito Sync enables cross-device sync of user profile data (now largely replaced by AppSync)."
+  },
+  {
+    "question": "What is SQS visibility timeout?",
+    "options": [
+      "Time a message is hidden after being received",
+      "Message expiration time",
+      "Queue creation time",
+      "Polling interval"
+    ],
+    "answer": "Time a message is hidden after being received",
+    "explanation": "Visibility timeout prevents other consumers from receiving the same message while it's being processed."
+  },
+  {
+    "question": "What is SNS fanout?",
+    "options": [
+      "Delivering messages to multiple subscribers",
+      "Load balancing",
+      "Message filtering",
+      "Topic creation"
+    ],
+    "answer": "Delivering messages to multiple subscribers",
+    "explanation": "Fanout pattern uses SNS to deliver messages to multiple SQS queues or endpoints simultaneously."
+  },
+  {
+    "question": "What language are Step Functions state machines defined in?",
+    "options": [
+      "JSON-based Amazon States Language",
+      "YAML",
+      "Python",
+      "JavaScript"
+    ],
+    "answer": "JSON-based Amazon States Language",
+    "explanation": "Step Functions use Amazon States Language (ASL), a JSON-based structured language."
+  },
+  {
+    "question": "What is Amazon EventBridge?",
+    "options": [
+      "A serverless event bus service",
+      "A network bridge",
+      "A database replication tool",
+      "A monitoring service"
+    ],
+    "answer": "A serverless event bus service",
+    "explanation": "EventBridge is a serverless event bus for connecting applications using events."
+  },
+  {
+    "question": "Which caching strategy adds data to cache only when requested?",
+    "options": [
+      "Lazy loading",
+      "Write-through",
+      "Eager loading",
+      "Pre-loading"
+    ],
+    "answer": "Lazy loading",
+    "explanation": "Lazy loading (cache-aside) only caches data when it's first requested, avoiding unnecessary caching."
+  },
+  {
+    "question": "What is RDS Multi-AZ used for?",
+    "options": [
+      "High availability and failover",
+      "Read scaling",
+      "Backup storage",
+      "Performance optimization"
+    ],
+    "answer": "High availability and failover",
+    "explanation": "Multi-AZ provides high availability with automatic failover to a standby instance."
+  },
+  {
+    "question": "What is Amazon Aurora Serverless?",
+    "options": [
+      "An auto-scaling Aurora configuration",
+      "A backup service",
+      "A migration tool",
+      "A monitoring service"
+    ],
+    "answer": "An auto-scaling Aurora configuration",
+    "explanation": "Aurora Serverless automatically starts up, scales, and shuts down based on application needs."
+  },
+  {
+    "question": "What does Elastic Beanstalk manage for you?",
+    "options": [
+      "Infrastructure provisioning and application deployment",
+      "Only deployment",
+      "Only monitoring",
+      "Only scaling"
+    ],
+    "answer": "Infrastructure provisioning and application deployment",
+    "explanation": "Elastic Beanstalk handles infrastructure provisioning, deployment, monitoring, and scaling."
+  },
+  {
+    "question": "What is AWS SAM?",
+    "options": [
+      "Serverless Application Model for defining serverless apps",
+      "A database service",
+      "A monitoring tool",
+      "A networking service"
+    ],
+    "answer": "Serverless Application Model for defining serverless apps",
+    "explanation": "SAM is an open-source framework for building serverless applications on AWS."
+  },
+  {
+    "question": "What triggers a Lambda function automatically?",
+    "options": [
+      "Manual invocation only",
+      "Events from AWS services",
+      "Cron jobs",
+      "User requests"
+    ],
+    "answer": "Events from AWS services",
+    "explanation": "Lambda can be triggered by events from S3, DynamoDB, SNS, SQS, API Gateway, and many other AWS services."
+  },
+  {
+    "question": "What is Lambda reserved concurrency?",
+    "options": [
+      "Guarantees execution",
+      "Sets maximum concurrent executions",
+      "Increases memory",
+      "Enables VPC access"
+    ],
+    "answer": "Sets maximum concurrent executions",
+    "explanation": "Reserved concurrency sets the maximum number of concurrent instances for your function."
+  },
+  {
+    "question": "How can you share code between Lambda functions?",
+    "options": [
+      "Copy-paste code",
+      "Lambda Layers",
+      "S3 bucket",
+      "GitHub"
+    ],
+    "answer": "Lambda Layers",
+    "explanation": "Lambda Layers allow you to manage and share code libraries across multiple functions."
+  },
+  {
+    "question": "What is Lambda's init code?",
+    "options": [
+      "Code run on every invocation",
+      "Code run once during cold start",
+      "Configuration code",
+      "Test code"
+    ],
+    "answer": "Code run once during cold start",
+    "explanation": "Init code runs once when a new execution environment is created, not on every invocation."
+  },
+  {
+    "question": "How can you invoke a Lambda function synchronously?",
+    "options": [
+      "Use Event invocation type",
+      "Use RequestResponse invocation type",
+      "Use DryRun",
+      "Use Test"
+    ],
+    "answer": "Use RequestResponse invocation type",
+    "explanation": "RequestResponse invocation type waits for the function to process the event and returns a response."
+  },
+  {
+    "question": "What is Lambda's SnapStart feature?",
+    "options": [
+      "Faster cold starts for Java functions",
+      "Scheduled execution",
+      "Backup service",
+      "Monitoring tool"
+    ],
+    "answer": "Faster cold starts for Java functions",
+    "explanation": "SnapStart reduces cold start times for Java functions by reusing initialized snapshots."
+  },
+  {
+    "question": "Can Lambda functions access resources in a VPC?",
+    "options": [
+      "No, never",
+      "Yes, with VPC configuration",
+      "Only EC2 instances",
+      "Only RDS databases"
+    ],
+    "answer": "Yes, with VPC configuration",
+    "explanation": "Lambda functions can be configured to access resources in your VPC by specifying subnets and security groups."
+  },
+  {
+    "question": "What happens to Lambda environment variables at rest?",
+    "options": [
+      "Stored in plaintext",
+      "Encrypted with AWS managed keys",
+      "Not stored",
+      "Hashed"
+    ],
+    "answer": "Encrypted with AWS managed keys",
+    "explanation": "Lambda automatically encrypts environment variables at rest using AWS managed encryption keys."
+  },
+  {
+    "question": "What is the Lambda execution context?",
+    "options": [
+      "The code itself",
+      "Temporary runtime environment",
+      "AWS region",
+      "IAM role"
+    ],
+    "answer": "Temporary runtime environment",
+    "explanation": "The execution context is a temporary runtime environment that initializes external dependencies."
+  },
+  {
+    "question": "How can you monitor Lambda function performance?",
+    "options": [
+      "CloudWatch Metrics and Logs",
+      "S3 logs only",
+      "Email notifications",
+      "SSH access"
+    ],
+    "answer": "CloudWatch Metrics and Logs",
+    "explanation": "Lambda automatically sends metrics to CloudWatch and you can enable detailed logging."
+  },
+  {
+    "question": "What is a DynamoDB composite primary key?",
+    "options": [
+      "Single partition key",
+      "Partition key + sort key",
+      "Multiple partition keys",
+      "Foreign key"
+    ],
+    "answer": "Partition key + sort key",
+    "explanation": "A composite primary key consists of a partition key and a sort key for more flexible querying."
+  },
+  {
+    "question": "How can you perform atomic updates in DynamoDB?",
+    "options": [
+      "Use UpdateItem operation",
+      "Delete and recreate",
+      "Use transactions",
+      "Both A and C"
+    ],
+    "answer": "Both A and C",
+    "explanation": "DynamoDB supports atomic updates through UpdateItem and ACID transactions."
+  },
+  {
+    "question": "What is DynamoDB's WCU (Write Capacity Unit)?",
+    "options": [
+      "1 read per second",
+      "1 write per second for item up to 1 KB",
+      "1 GB storage",
+      "1 transaction"
+    ],
+    "answer": "1 write per second for item up to 1 KB",
+    "explanation": "One WCU represents one write per second for an item up to 1 KB in size."
+  },
+  {
+    "question": "What is a DynamoDB sparse index?",
+    "options": [
+      "Index with missing values",
+      "Index with only some items having the indexed attribute",
+      "Compressed index",
+      "Partial index"
+    ],
+    "answer": "Index with only some items having the indexed attribute",
+    "explanation": "Sparse indexes only include items that have the indexed attribute, reducing index size."
+  },
+  {
+    "question": "How does DynamoDB handle hot partitions?",
+    "options": [
+      "Adaptive capacity",
+      "Manual redistribution",
+      "Deletes data",
+      "Locks access"
+    ],
+    "answer": "Adaptive capacity",
+    "explanation": "DynamoDB automatically applies adaptive capacity to handle hot partitions."
+  },
+  {
+    "question": "What is DynamoDB Time to Live (TTL)?",
+    "options": [
+      "Session timeout",
+      "Automatic item deletion after timestamp",
+      "Query timeout",
+      "Connection timeout"
+    ],
+    "answer": "Automatic item deletion after timestamp",
+    "explanation": "TTL automatically deletes items after their TTL attribute timestamp expires."
+  },
+  {
+    "question": "Can you use SQL with DynamoDB?",
+    "options": [
+      "No, NoSQL only",
+      "Yes, via PartiQL",
+      "Only with third-party tools",
+      "Only for queries"
+    ],
+    "answer": "Yes, via PartiQL",
+    "explanation": "DynamoDB supports PartiQL, an SQL-compatible query language."
+  },
+  {
+    "question": "What is DynamoDB global table?",
+    "options": [
+      "Large table",
+      "Multi-region, multi-master replication",
+      "Shared table",
+      "Backup table"
+    ],
+    "answer": "Multi-region, multi-master replication",
+    "explanation": "Global tables provide fully managed multi-region, multi-active database replication."
+  },
+  {
+    "question": "How can you backup DynamoDB tables?",
+    "options": [
+      "On-demand backups",
+      "Point-in-time recovery",
+      "Export to S3",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": "DynamoDB supports on-demand backups, PITR, and exports to S3."
+  },
+  {
+    "question": "What is a DynamoDB conditional write?",
+    "options": [
+      "Write with retry",
+      "Write only if condition is met",
+      "Scheduled write",
+      "Batch write"
+    ],
+    "answer": "Write only if condition is met",
+    "explanation": "Conditional writes only succeed if the specified condition evaluates to true."
+  },
+  {
+    "question": "What is API Gateway mapping template?",
+    "options": [
+      "URL mapping",
+      "Request/response transformation using VTL",
+      "Domain mapping",
+      "Resource mapping"
+    ],
+    "answer": "Request/response transformation using VTL",
+    "explanation": "Mapping templates use Velocity Template Language (VTL) to transform requests and responses."
+  },
+  {
+    "question": "What is API Gateway usage plan?",
+    "options": [
+      "Deployment plan",
+      "Throttling and quota limits for API keys",
+      "Pricing plan",
+      "Monitoring plan"
+    ],
+    "answer": "Throttling and quota limits for API keys",
+    "explanation": "Usage plans specify throttling and quota limits for API keys."
+  },
+  {
+    "question": "How can you implement API Gateway canary deployments?",
+    "options": [
+      "Using stages",
+      "Using canary settings on stages",
+      "Manual traffic splitting",
+      "Load balancer"
+    ],
+    "answer": "Using canary settings on stages",
+    "explanation": "API Gateway canary settings route a percentage of traffic to a new deployment."
+  },
+  {
+    "question": "What is API Gateway REST API vs HTTP API?",
+    "options": [
+      "REST has more features, HTTP is simpler and cheaper",
+      "They're identical",
+      "HTTP is deprecated",
+      "REST is slower"
+    ],
+    "answer": "REST has more features, HTTP is simpler and cheaper",
+    "explanation": "HTTP APIs are optimized for building APIs with lower latency and cost, while REST APIs have more features."
+  },
+  {
+    "question": "Can API Gateway transform request bodies?",
+    "options": [
+      "No",
+      "Yes, using mapping templates",
+      "Only for Lambda",
+      "Only for HTTP"
+    ],
+    "answer": "Yes, using mapping templates",
+    "explanation": "Mapping templates allow you to transform request and response bodies."
+  },
+  {
+    "question": "What is API Gateway request/response data mapping?",
+    "options": [
+      "URL rewriting",
+      "Converting between formats and structures",
+      "Load balancing",
+      "Caching"
+    ],
+    "answer": "Converting between formats and structures",
+    "explanation": "Data mapping transforms request/response payloads between client and backend formats."
+  },
+  {
+    "question": "How can you version your API in API Gateway?",
+    "options": [
+      "Stage names",
+      "Resource paths",
+      "Custom domains",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": "API versioning can use stages (v1, v2), paths (/v1/resource), or custom domains."
+  },
+  {
+    "question": "What is API Gateway Binary Media Types?",
+    "options": [
+      "Image compression",
+      "Support for binary payloads like images",
+      "JSON only",
+      "Text encoding"
+    ],
+    "answer": "Support for binary payloads like images",
+    "explanation": "Binary media types allow API Gateway to handle binary data like images, PDFs, etc."
+  },
+  {
+    "question": "What happens when API Gateway cache is enabled?",
+    "options": [
+      "Responses are cached",
+      "Faster response times",
+      "Reduced backend calls",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": "Caching stores responses, improving performance and reducing backend load."
+  },
+  {
+    "question": "What is API Gateway WebSocket API?",
+    "options": [
+      "HTTP protocol",
+      "Two-way communication protocol",
+      "REST replacement",
+      "Deprecated feature"
+    ],
+    "answer": "Two-way communication protocol",
+    "explanation": "WebSocket APIs enable two-way communication between client and server."
+  },
+  {
+    "question": "What is S3 multipart upload?",
+    "options": [
+      "Upload in parts for large files",
+      "Multiple files at once",
+      "Parallel downloads",
+      "Distributed storage"
+    ],
+    "answer": "Upload in parts for large files",
+    "explanation": "Multipart upload allows uploading large objects in parts, improving reliability and performance."
+  },
+  {
+    "question": "What is S3 event notification?",
+    "options": [
+      "Alerts for bucket activities",
+      "Automatic triggers for Lambda/SNS/SQS",
+      "Monitoring service",
+      "Error notifications"
+    ],
+    "answer": "Automatic triggers for Lambda/SNS/SQS",
+    "explanation": "S3 event notifications trigger Lambda functions, SNS topics, or SQS queues on bucket events."
+  },
+  {
+    "question": "What is S3 Cross-Region Replication (CRR)?",
+    "options": [
+      "Automatic object replication across regions",
+      "Manual backup",
+      "Load balancing",
+      "Content delivery"
+    ],
+    "answer": "Automatic object replication across regions",
+    "explanation": "CRR automatically replicates objects to buckets in different AWS regions."
+  },
+  {
+    "question": "What is S3 Object Lock?",
+    "options": [
+      "Password protection",
+      "WORM (write once, read many) protection",
+      "Access control",
+      "Encryption"
+    ],
+    "answer": "WORM (write once, read many) protection",
+    "explanation": "Object Lock prevents object deletion or modification for a specified retention period."
+  },
+  {
+    "question": "What is S3 Intelligent-Tiering?",
+    "options": [
+      "Manual storage class changes",
+      "Automatic cost optimization by moving objects between tiers",
+      "Smart caching",
+      "AI-powered search"
+    ],
+    "answer": "Automatic cost optimization by moving objects between tiers",
+    "explanation": "Intelligent-Tiering automatically moves objects between access tiers based on usage patterns."
+  },
+  {
+    "question": "What is S3 bucket policy?",
+    "options": [
+      "Storage size limit",
+      "Resource-based access policy",
+      "Pricing policy",
+      "Replication policy"
+    ],
+    "answer": "Resource-based access policy",
+    "explanation": "Bucket policies are resource-based policies that grant permissions to buckets and objects."
+  },
+  {
+    "question": "What is S3 Access Points?",
+    "options": [
+      "Entry points for VPC access",
+      "Unique endpoints for specific applications",
+      "Network optimization",
+      "Backup points"
+    ],
+    "answer": "Unique endpoints for specific applications",
+    "explanation": "Access Points simplify managing data access for shared datasets with specific permissions."
+  },
+  {
+    "question": "What is S3 Glacier Instant Retrieval?",
+    "options": [
+      "Millisecond retrieval for archive data",
+      "Minutes retrieval",
+      "Hours retrieval",
+      "Days retrieval"
+    ],
+    "answer": "Millisecond retrieval for archive data",
+    "explanation": "Glacier Instant Retrieval provides millisecond retrieval for rarely accessed archive data."
+  },
+  {
+    "question": "What is S3 Server Access Logging?",
+    "options": [
+      "Error logs",
+      "Detailed records of requests made to a bucket",
+      "Server health logs",
+      "Application logs"
+    ],
+    "answer": "Detailed records of requests made to a bucket",
+    "explanation": "Server access logging provides detailed records for audit and compliance."
+  },
+  {
+    "question": "What is S3 Inventory?",
+    "options": [
+      "Storage size report",
+      "Scheduled report of objects and metadata",
+      "Cost analysis",
+      "Access logs"
+    ],
+    "answer": "Scheduled report of objects and metadata",
+    "explanation": "S3 Inventory provides scheduled reports of your objects and their metadata."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
   }
 ]

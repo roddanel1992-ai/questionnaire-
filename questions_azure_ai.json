@@ -229,6 +229,3022 @@
     ],
     "answer": "A reinforcement learning service for personalized content recommendations",
     "explanation": "Azure Personalizer uses reinforcement learning to select the best content for each user based on real-time context and user feedback."
+  },
+  {
+    "question": "What is Azure Cognitive Services?",
+    "options": [
+      "Pre-built AI APIs",
+      "Custom AI training platform",
+      "Database service",
+      "Networking service"
+    ],
+    "answer": "Pre-built AI APIs",
+    "explanation": "Cognitive Services provides pre-built AI capabilities through simple API calls."
+  },
+  {
+    "question": "Which service provides optical character recognition (OCR)?",
+    "options": [
+      "Computer Vision",
+      "Face API",
+      "Speech Service",
+      "Translator"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "Computer Vision API includes OCR capabilities to extract text from images."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles language?",
+    "options": [
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Language Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles decision?",
+    "options": [
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Personalizer",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles search?",
+    "options": [
+      "Cognitive Search"
+    ],
+    "answer": "Cognitive Search",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles vision?",
+    "options": [
+      "Computer Vision",
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Computer Vision",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
+  },
+  {
+    "question": "What Azure Cognitive Service handles speech?",
+    "options": [
+      "Speech Service",
+      "Language Service",
+      "Personalizer",
+      "Cognitive Search",
+      "Computer Vision"
+    ],
+    "answer": "Speech Service",
+    "explanation": "This Azure service provides AI capabilities for the specified domain."
   }
 ]
-

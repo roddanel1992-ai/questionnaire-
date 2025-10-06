@@ -5,12 +5,14 @@ A modern, interactive web application for practicing cloud certification exams f
 ## 🌟 Certifications Covered
 
 ### AWS (Amazon Web Services)
-- ☁️ **AWS Certified Developer - Associate (DVA-C02)** - 122 questions
-- 🤖 **AWS Certified AI Practitioner (AIF-C01)** - 49 questions
+- ☁️ **AWS Certified Developer - Associate (DVA-C02)** - 300 questions
+- 🤖 **AWS Certified AI Practitioner (AIF-C01)** - 300 questions
 
 ### Azure (Microsoft)
-- ☁️ **Microsoft Certified: Azure Developer Associate (AZ-204)** - 21 questions
-- 🤖 **Microsoft Certified: Azure AI Engineer Associate (AI-102)** - 21 questions
+- ☁️ **Microsoft Certified: Azure Developer Associate (AZ-204)** - 300 questions
+- 🤖 **Microsoft Certified: Azure AI Engineer Associate (AI-102)** - 300 questions
+
+**Total: 1,200 professional certification questions!**
 
 ## Features
 
