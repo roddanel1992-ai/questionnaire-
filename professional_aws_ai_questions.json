@@ -1,0 +1,277 @@
+[
+  {
+    "question": "A machine learning team at a healthcare company is developing a medical image classification system using Amazon SageMaker. The team needs to train a custom model with 500,000 medical images stored in Amazon S3. The training process must be cost-effective while maintaining high performance. After training, the model will be deployed for real-time inference to process incoming patient scans. Which combination of SageMaker features should the team implement? (Select 2)",
+    "options": [
+      "Use SageMaker Training Jobs with managed Spot Training to reduce training costs by up to 90%",
+      "Store all training data in memory on a single large EC2 instance",
+      "Deploy the model using SageMaker Real-Time Inference endpoints with auto-scaling",
+      "Use SageMaker Batch Transform for all inference requests",
+      "Train the model on a local laptop and upload to S3"
+    ],
+    "answer": ["Use SageMaker Training Jobs with managed Spot Training to reduce training costs by up to 90%", "Deploy the model using SageMaker Real-Time Inference endpoints with auto-scaling"],
+    "correctCount": 2,
+    "explanation": "Managed Spot Training allows you to reduce training costs by up to 90% by using spare AWS capacity. For real-time inference requirements (processing incoming patient scans), SageMaker Real-Time Inference endpoints with auto-scaling provide low-latency predictions and handle variable load. Batch Transform is better for batch processing, not real-time requirements."
+  },
+  {
+    "question": "A financial services company is building a fraud detection system that analyzes transaction descriptions to identify suspicious activity. The system must extract sentiment, key phrases, and detect personally identifiable information (PII) from transaction notes in real-time. The development team wants to minimize infrastructure management while ensuring GDPR compliance. Which AWS AI service combination best meets these requirements? (Select 2)",
+    "options": [
+      "Amazon Comprehend for sentiment analysis and key phrase extraction",
+      "Amazon Rekognition for text analysis",
+      "Amazon Comprehend with PII detection and redaction capabilities",
+      "Custom NLP model on EC2 instances",
+      "Amazon Polly for text analysis"
+    ],
+    "answer": ["Amazon Comprehend for sentiment analysis and key phrase extraction", "Amazon Comprehend with PII detection and redaction capabilities"],
+    "correctCount": 2,
+    "explanation": "Amazon Comprehend provides pre-built NLP capabilities including sentiment analysis, key phrase extraction, and PII detection/redaction. This fully managed service requires no infrastructure management and includes PII redaction features that help with GDPR compliance. Rekognition is for image analysis, and Polly is for text-to-speech, not text analysis."
+  },
+  {
+    "question": "An e-commerce company wants to implement a product recommendation engine on their website. The system must provide personalized recommendations based on user browsing history, purchase patterns, and real-time interactions. The solution should automatically scale during peak shopping seasons and require minimal ML expertise from the development team. Which AWS service should they use?",
+    "options": [
+      "Build a custom recommendation engine using Amazon SageMaker and host it on EC2",
+      "Amazon Personalize with real-time event tracking",
+      "Amazon Comprehend for analyzing user behavior",
+      "Amazon Forecast for predicting user preferences",
+      "Store all data in DynamoDB and implement custom algorithms"
+    ],
+    "answer": "Amazon Personalize with real-time event tracking",
+    "correctCount": 1,
+    "explanation": "Amazon Personalize is specifically designed for building personalized recommendation systems. It uses the same technology as Amazon.com, automatically scales, supports real-time personalization through event tracking, and requires no ML expertise. Forecast is for time-series predictions, not recommendations. Comprehend is for text analysis, not recommendation engines."
+  },
+  {
+    "question": "A content moderation team at a social media platform needs to analyze millions of user-uploaded images daily to detect inappropriate content, including explicit material, violence, and prohibited symbols. The system must provide confidence scores for each detection and allow human reviewers to focus on borderline cases. The solution needs to scale automatically and integrate with their existing workflow management system. What is the most efficient approach?",
+    "options": [
+      "Use Amazon Rekognition Content Moderation API with custom minimum confidence thresholds",
+      "Build a custom CNN model using TensorFlow on SageMaker",
+      "Manually review all images with human moderators",
+      "Use Amazon Textract to analyze image content",
+      "Deploy an open-source moderation tool on EC2 instances"
+    ],
+    "answer": "Use Amazon Rekognition Content Moderation API with custom minimum confidence thresholds",
+    "correctCount": 1,
+    "explanation": "Amazon Rekognition Content Moderation provides pre-trained models specifically designed to detect inappropriate content in images and videos. It returns confidence scores for each detection category, allowing you to set custom thresholds and route borderline cases to human reviewers. It's fully managed, automatically scales, and can be easily integrated via API. Textract is for document text extraction, not content moderation."
+  },
+  {
+    "question": "A logistics company is developing an application to automatically extract data from thousands of shipping invoices, bills of lading, and customs forms received daily in various formats (PDF, PNG, JPEG). The extracted data must include structured information like dates, amounts, addresses, and custom form fields. The solution needs to handle documents in multiple languages and maintain accuracy above 95%. Which combination of services provides the best solution? (Select 2)",
+    "options": [
+      "Amazon Textract for general document text extraction",
+      "Amazon Rekognition for OCR",
+      "Amazon Textract with custom queries for specific form fields",
+      "Manual data entry",
+      "Amazon Translate for language detection"
+    ],
+    "answer": ["Amazon Textract for general document text extraction", "Amazon Textract with custom queries for specific form fields"],
+    "correctCount": 2,
+    "explanation": "Amazon Textract goes beyond simple OCR to automatically extract text, handwriting, and data from scanned documents. It can detect and extract data from tables and forms, including custom fields using Queries feature. Textract supports multiple languages and maintains high accuracy for structured data extraction. Rekognition doesn't have specialized document extraction capabilities like Textract."
+  },
+  {
+    "question": "A global customer service department wants to transcribe phone calls in real-time across 15 languages, identify speaker changes, and redact sensitive information like credit card numbers before storing transcripts. The system processes 10,000 calls daily with varying audio quality. Call recordings are stored in Amazon S3. Which AWS service configuration meets these requirements?",
+    "options": [
+      "Amazon Transcribe with automatic language identification, speaker diarization, and PII redaction",
+      "Amazon Polly with text analysis",
+      "Amazon Comprehend for audio processing",
+      "Custom speech recognition model on SageMaker",
+      "Amazon Translate for audio transcription"
+    ],
+    "answer": "Amazon Transcribe with automatic language identification, speaker diarization, and PII redaction",
+    "correctCount": 1,
+    "explanation": "Amazon Transcribe is AWS's speech-to-text service that supports automatic language identification across 100+ languages, speaker diarization (identifying who spoke when), and automatic PII redaction. It can process audio from S3 and handle varying audio quality. Polly is text-to-speech (opposite direction), Comprehend analyzes text not audio, and Translate is for text translation."
+  },
+  {
+    "question": "A pharmaceutical research company is building a drug discovery platform that requires analyzing scientific literature, extracting medical entities (diseases, medications, dosages), and identifying relationships between treatments and outcomes. The system must understand medical terminology and maintain HIPAA compliance. Which AWS AI service provides the most appropriate solution?",
+    "options": [
+      "Amazon Comprehend Medical for extracting medical entities and relationships",
+      "Standard Amazon Comprehend for general text analysis",
+      "Amazon Rekognition for document analysis",
+      "Amazon Textract for medical document processing",
+      "Custom NLP model on EC2 without AWS services"
+    ],
+    "answer": "Amazon Comprehend Medical for extracting medical entities and relationships",
+    "correctCount": 1,
+    "explanation": "Amazon Comprehend Medical is specifically designed to extract medical information from unstructured text using pre-trained models that understand medical terminology. It can identify medical entities (medications, conditions, dosages), protected health information (PHI), and relationships between entities. It's HIPAA-eligible and doesn't require training custom models. Standard Comprehend lacks medical-specific understanding."
+  },
+  {
+    "question": "A mobile gaming company wants to add voice-enabled characters to their games. The characters need to speak in multiple languages with natural-sounding voices that match character personalities (young, old, energetic, calm). The audio must be generated dynamically based on game events and include SSML markup for emphasis and pauses. Voice files should be cached for frequently used phrases. Which solution best meets these requirements?",
+    "options": [
+      "Amazon Polly with Neural TTS voices and SSML support, integrated with Amazon CloudFront for caching",
+      "Amazon Transcribe for generating voice",
+      "Pre-recorded audio files for all possible phrases",
+      "Amazon Lex for voice generation",
+      "Third-party text-to-speech API hosted on EC2"
+    ],
+    "answer": "Amazon Polly with Neural TTS voices and SSML support, integrated with Amazon CloudFront for caching",
+    "correctCount": 1,
+    "explanation": "Amazon Polly provides neural TTS voices in multiple languages with various styles (conversational, news reader, etc.) that can match character personalities. It supports SSML for fine control over speech output including emphasis, pauses, and prosody. Integration with CloudFront enables efficient caching of frequently used phrases. Transcribe is speech-to-text, and Lex is for building conversational interfaces, not text-to-speech."
+  },
+  {
+    "question": "An autonomous vehicle research team is developing a computer vision system that must detect and classify objects (pedestrians, vehicles, traffic signs, lane markings) in real-time video feeds from multiple cameras. The system needs to process 30 frames per second with latency under 100ms and run inference at the edge on vehicle hardware. Which approach should they take? (Select 2)",
+    "options": [
+      "Train a custom object detection model using Amazon SageMaker with their proprietary dataset",
+      "Use Amazon Rekognition API calls for each frame",
+      "Deploy the model using AWS IoT Greengrass for edge inference",
+      "Stream all video to AWS cloud for processing",
+      "Use Amazon Textract for image analysis"
+    ],
+    "answer": ["Train a custom object detection model using Amazon SageMaker with their proprietary dataset", "Deploy the model using AWS IoT Greengrass for edge inference"],
+    "correctCount": 2,
+    "explanation": "For autonomous vehicles, you need custom models trained on proprietary data (SageMaker for training) and edge deployment for low-latency inference (IoT Greengrass). Streaming video to the cloud would introduce too much latency (>100ms requirement). Rekognition is for general use cases and requires cloud connectivity. Textract is for documents, not real-time object detection."
+  },
+  {
+    "question": "A document processing company needs to convert thousands of scanned PDFs containing handwritten forms into searchable, editable documents. The forms include checkboxes, signatures, tables, and both printed and handwritten text in English and Spanish. The extracted data must maintain the original document structure and formatting. What is the most suitable AWS service?",
+    "options": [
+      "Amazon Textract with form, table, and handwriting detection capabilities",
+      "Amazon Rekognition Text Detection",
+      "Amazon Comprehend for document analysis",
+      "Manual OCR processing",
+      "Amazon Translate for document conversion"
+    ],
+    "answer": "Amazon Textract with form, table, and handwriting detection capabilities",
+    "correctCount": 1,
+    "explanation": "Amazon Textract is specifically designed to extract text, handwriting, tables, and form data from scanned documents while preserving structure. It supports both printed and handwritten text, can detect form fields and checkboxes, and maintains document layout. Rekognition Text Detection is simpler and doesn't handle structured data extraction. Comprehend analyzes text but doesn't extract it from documents."
+  },
+  {
+    "question": "A retail analytics team wants to analyze customer sentiment from social media posts, product reviews, and support tickets. The analysis must identify specific products being discussed, detect sentiment (positive, negative, neutral, mixed), and extract key topics. The system processes text in English, Spanish, French, and German. Which AWS service provides the most comprehensive solution?",
+    "options": [
+      "Amazon Comprehend with sentiment analysis, entity recognition, and topic modeling",
+      "Amazon Rekognition for text analysis",
+      "Amazon Lex for conversation analysis",
+      "Amazon Polly for sentiment detection",
+      "Custom sentiment model on EC2"
+    ],
+    "answer": "Amazon Comprehend with sentiment analysis, entity recognition, and topic modeling",
+    "correctCount": 1,
+    "explanation": "Amazon Comprehend provides comprehensive NLP capabilities including sentiment analysis (positive, negative, neutral, mixed), entity recognition (to identify products), key phrase extraction, and topic modeling. It supports multiple languages out-of-the-box and is fully managed. Rekognition is for images, Lex is for chatbots, and Polly is text-to-speech."
+  },
+  {
+    "question": "A video streaming platform wants to automatically generate subtitles for their content library of 100,000+ videos in 20 languages. The subtitles must include timestamps, speaker identification, and custom vocabulary for technical terms. The process should be cost-effective for batch processing while handling videos ranging from 5 minutes to 3 hours. Which approach is most suitable?",
+    "options": [
+      "Use Amazon Transcribe batch jobs with custom vocabularies and speaker diarization",
+      "Manual subtitle creation by human transcribers",
+      "Amazon Polly for subtitle generation",
+      "Real-time transcription API for all videos",
+      "Amazon Comprehend for video analysis"
+    ],
+    "answer": "Use Amazon Transcribe batch jobs with custom vocabularies and speaker diarization",
+    "correctCount": 1,
+    "explanation": "Amazon Transcribe batch jobs are cost-effective for processing large video libraries asynchronously. Custom vocabularies help with technical terms, speaker diarization identifies different speakers, and batch processing is more economical than real-time for non-time-critical subtitle generation. Polly is text-to-speech, and Comprehend doesn't process audio."
+  },
+  {
+    "question": "A machine learning engineer needs to deploy a trained fraud detection model that processes credit card transactions. The model must handle 10,000 requests per second during peak hours, provide responses within 50ms, and automatically scale based on traffic. The solution should minimize costs during off-peak hours when traffic drops to 100 requests per second. Which SageMaker deployment option best meets these requirements?",
+    "options": [
+      "SageMaker Real-Time Inference with auto-scaling configured based on InvocationsPerInstance metric",
+      "SageMaker Batch Transform running continuously",
+      "Deploy model on EC2 with manual scaling",
+      "SageMaker Asynchronous Inference for all requests",
+      "Lambda function with embedded model"
+    ],
+    "answer": "SageMaker Real-Time Inference with auto-scaling configured based on InvocationsPerInstance metric",
+    "correctCount": 1,
+    "explanation": "SageMaker Real-Time Inference with auto-scaling provides low-latency predictions (50ms requirement), automatically scales up during peak hours (10,000 rps) and scales down during off-peak (100 rps) to minimize costs. Auto-scaling based on InvocationsPerInstance ensures efficient resource utilization. Batch Transform is for batch processing, not real-time with 50ms latency requirements."
+  },
+  {
+    "question": "A healthcare provider is building a medical chatbot that must understand patient queries in natural language, extract medical intents, and route to appropriate specialists. The bot needs to work across web, mobile, and voice channels with HIPAA compliance. The development team wants to avoid building custom NLP models. Which AWS service should they use?",
+    "options": [
+      "Amazon Lex with built-in integration to AWS Lambda for business logic and multi-channel support",
+      "Amazon Comprehend Medical with custom application logic",
+      "Amazon Polly for voice interactions only",
+      "Custom chatbot on EC2 instances",
+      "Amazon Textract for processing medical queries"
+    ],
+    "answer": "Amazon Lex with built-in integration to AWS Lambda for business logic and multi-channel support",
+    "correctCount": 1,
+    "explanation": "Amazon Lex is AWS's service for building conversational interfaces (chatbots) with automatic speech recognition (ASR) and natural language understanding (NLU). It's HIPAA-eligible, supports multiple channels (web, mobile, voice), integrates with Lambda for business logic, and doesn't require custom NLP model development. Comprehend Medical analyzes medical text but doesn't build chatbots."
+  },
+  {
+    "question": "A data science team is training a deep learning model for image classification using Amazon SageMaker. The training dataset contains 10 million images (2 TB total) stored in Amazon S3. Training a single model takes 48 hours on a single GPU instance. The team needs to experiment with multiple hyperparameters and reduce total training time. Which SageMaker feature should they implement? (Select 2)",
+    "options": [
+      "Use SageMaker Distributed Training with data parallelism across multiple GPU instances",
+      "Download all data to a single local machine for training",
+      "Use SageMaker Automatic Model Tuning (Hyperparameter Tuning) to optimize parameters efficiently",
+      "Train models sequentially one at a time",
+      "Use SageMaker Batch Transform for training"
+    ],
+    "answer": ["Use SageMaker Distributed Training with data parallelism across multiple GPU instances", "Use SageMaker Automatic Model Tuning (Hyperparameter Tuning) to optimize parameters efficiently"],
+    "correctCount": 2,
+    "explanation": "SageMaker Distributed Training splits data across multiple GPU instances to reduce training time significantly. Automatic Model Tuning intelligently searches the hyperparameter space and runs multiple training jobs in parallel, finding optimal parameters faster than manual experimentation. Batch Transform is for inference, not training."
+  },
+  {
+    "question": "An insurance company wants to analyze photos of damaged vehicles submitted with claims. The system must detect the make and model of the vehicle, identify types of damage (dents, scratches, broken glass), and estimate damage severity. The solution should handle photos from various angles and lighting conditions. Standard object detection models don't recognize damage types accurately. What approach should they take?",
+    "options": [
+      "Use Amazon Rekognition Custom Labels to train a custom model with labeled images of vehicle damage",
+      "Use standard Amazon Rekognition object detection without customization",
+      "Manually review all photos without AI assistance",
+      "Use Amazon Textract to analyze vehicle photos",
+      "Use Amazon Comprehend for image analysis"
+    ],
+    "answer": "Use Amazon Rekognition Custom Labels to train a custom model with labeled images of vehicle damage",
+    "correctCount": 1,
+    "explanation": "Amazon Rekognition Custom Labels allows you to train custom computer vision models for specific use cases without deep ML expertise. Since standard models don't recognize vehicle damage types accurately, you need custom training with labeled examples of dents, scratches, etc. Textract is for documents, Comprehend is for text analysis, and standard Rekognition won't detect custom damage categories."
+  },
+  {
+    "question": "A news organization wants to automatically translate articles from English to 25 different languages daily. The translations must maintain technical accuracy for specialized terms, preserve formatting (bold, italics, links), and handle idiomatic expressions appropriately. The system processes 500 articles per day with an average of 1,000 words each. Which solution is most appropriate?",
+    "options": [
+      "Amazon Translate with custom terminology for specialized terms and batch translation API",
+      "Manual translation by human translators only",
+      "Amazon Comprehend for translation",
+      "Amazon Polly for language conversion",
+      "Open-source translation tools on EC2"
+    ],
+    "answer": "Amazon Translate with custom terminology for specialized terms and batch translation API",
+    "correctCount": 1,
+    "explanation": "Amazon Translate provides neural machine translation for 75 languages with support for custom terminology to ensure specialized terms are translated consistently. The batch translation API is cost-effective for large volumes and supports document translation while preserving formatting. Comprehend analyzes text but doesn't translate, and Polly is text-to-speech."
+  },
+  {
+    "question": "A security camera system generates 1,000 hours of video footage daily across multiple retail locations. The company wants to detect specific events (shoplifting indicators, crowd formation, slip-and-fall incidents) and alert security teams in real-time. They need to store video for 90 days and search footage based on detected events. Which AWS service combination provides the most efficient solution? (Select 2)",
+    "options": [
+      "Amazon Rekognition Video for real-time video analysis with custom labels for specific events",
+      "Store video in Amazon S3 with lifecycle policies for 90-day retention",
+      "Store all video on local hard drives",
+      "Use Amazon Textract for video analysis",
+      "Amazon Comprehend for event detection"
+    ],
+    "answer": ["Amazon Rekognition Video for real-time video analysis with custom labels for specific events", "Store video in Amazon S3 with lifecycle policies for 90-day retention"],
+    "correctCount": 2,
+    "explanation": "Amazon Rekognition Video can analyze streaming video in real-time, detect custom events using Custom Labels, and trigger alerts. S3 provides cost-effective storage with lifecycle policies for 90-day retention and integrates seamlessly with Rekognition for searchable metadata. Textract is for documents, and Comprehend is for text analysis, neither works with video."
+  },
+  {
+    "question": "A machine learning team is developing a predictive maintenance system for manufacturing equipment. They have historical sensor data (temperature, vibration, pressure) and maintenance records. The model must predict equipment failures 24 hours in advance with high accuracy. After training multiple algorithms, they need to deploy the best-performing model to production with A/B testing capabilities. Which SageMaker features should they use? (Select 2)",
+    "options": [
+      "SageMaker Model Registry to version and manage trained models",
+      "SageMaker Multi-Model Endpoints to host multiple models on a single endpoint",
+      "SageMaker Hosting with production variant weights for A/B testing",
+      "Deploy all models on separate EC2 instances",
+      "Use SageMaker Ground Truth for model deployment"
+    ],
+    "answer": ["SageMaker Model Registry to version and manage trained models", "SageMaker Hosting with production variant weights for A/B testing"],
+    "correctCount": 2,
+    "explanation": "SageMaker Model Registry provides model versioning, lineage tracking, and approval workflows for managing multiple trained models. SageMaker Hosting supports multiple production variants on the same endpoint with configurable traffic distribution (weights) for A/B testing different models. Ground Truth is for data labeling, not model deployment."
+  },
+  {
+    "question": "A financial institution is building a document understanding system that must extract data from diverse financial documents (bank statements, loan applications, investment reports). Each document type has a different structure, and new document types are added monthly. The system must handle 100,000 documents daily with varying quality and formats. Which approach provides the most flexibility and scalability?",
+    "options": [
+      "Amazon Textract with Queries API to extract specific data points from any document type without pre-training",
+      "Hard-coded template matching for each document type",
+      "Manual data entry for all documents",
+      "Amazon Rekognition for document processing",
+      "Single custom model trained on one document type"
+    ],
+    "answer": "Amazon Textract with Queries API to extract specific data points from any document type without pre-training",
+    "correctCount": 1,
+    "explanation": "Amazon Textract's Queries API allows you to specify questions (queries) to extract specific information from any document without training custom models for each type. This provides flexibility for new document types and scales to handle high volumes. Hard-coded templates require maintenance, and Rekognition doesn't specialize in structured document extraction."
+  },
+  {
+    "question": "A customer service platform wants to analyze voice calls to detect customer frustration in real-time, identify product names mentioned, and measure agent performance. The system must process calls in multiple languages and provide dashboards showing trends. The company wants to minimize infrastructure management. Which combination of AWS services addresses all requirements? (Select 3)",
+    "options": [
+      "Amazon Transcribe for call transcription with real-time streaming",
+      "Amazon Comprehend for sentiment analysis on transcribed text",
+      "Amazon QuickSight for analytics dashboards",
+      "Custom sentiment analysis on EC2",
+      "Amazon Rekognition for voice analysis",
+      "Store all data in local databases"
+    ],
+    "answer": ["Amazon Transcribe for call transcription with real-time streaming", "Amazon Comprehend for sentiment analysis on transcribed text", "Amazon QuickSight for analytics dashboards"],
+    "correctCount": 3,
+    "explanation": "Amazon Transcribe converts voice to text in real-time across multiple languages. Amazon Comprehend analyzes the transcribed text for sentiment (detecting frustration) and entity recognition (identifying product names). Amazon QuickSight creates dashboards showing trends and metrics. All are fully managed services. Rekognition is for images/video, not audio analysis."
+  }
+]
+
