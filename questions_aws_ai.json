@@ -667,7 +667,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -675,7 +676,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -721,7 +725,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -729,7 +734,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -775,7 +783,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -783,7 +792,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -829,7 +841,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -837,7 +850,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -883,7 +899,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -891,7 +908,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -937,7 +957,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -945,7 +966,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -991,7 +1015,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -999,7 +1024,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1045,7 +1073,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1053,7 +1082,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1099,7 +1131,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1107,7 +1140,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1153,7 +1189,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1161,7 +1198,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1207,7 +1247,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1215,7 +1256,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1261,7 +1305,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1269,7 +1314,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1315,7 +1363,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1323,7 +1372,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1369,7 +1421,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1377,7 +1430,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1423,7 +1479,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1431,7 +1488,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1477,7 +1537,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1485,7 +1546,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1531,7 +1595,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1539,7 +1604,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1585,7 +1653,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1593,7 +1662,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1639,7 +1711,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1647,7 +1720,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1693,7 +1769,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1701,7 +1778,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1747,7 +1827,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1755,7 +1836,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1801,7 +1885,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1809,7 +1894,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1855,7 +1943,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1863,7 +1952,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1909,7 +2001,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1917,7 +2010,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1963,7 +2059,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -1971,7 +2068,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2017,7 +2117,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2025,7 +2126,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2071,7 +2175,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2079,7 +2184,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2125,7 +2233,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2133,7 +2242,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2179,7 +2291,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2187,7 +2300,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2233,7 +2349,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2241,7 +2358,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2287,7 +2407,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2295,7 +2416,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2341,7 +2465,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2349,7 +2474,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2395,7 +2523,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2403,7 +2532,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2449,7 +2581,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2457,7 +2590,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2503,7 +2639,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2511,7 +2648,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2557,7 +2697,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2565,7 +2706,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2611,7 +2755,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2619,7 +2764,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2665,7 +2813,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2673,7 +2822,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2719,7 +2871,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2727,7 +2880,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2773,7 +2929,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2781,7 +2938,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2827,7 +2987,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2835,7 +2996,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2881,7 +3045,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2889,7 +3054,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2935,7 +3103,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2943,7 +3112,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2989,7 +3161,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -2997,7 +3170,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -3043,7 +3219,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -3051,7 +3228,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -3097,7 +3277,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -3105,7 +3286,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -3151,7 +3335,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -3159,7 +3344,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -3205,7 +3393,8 @@
     "options": [
       "Text-to-speech",
       "Chatbots",
-      "ML platform"
+      "ML platform",
+      "Configure settings manually"
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
@@ -3213,7 +3402,10 @@
   {
     "question": "What AI capability does Lex provide?",
     "options": [
-      "Chatbots"
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
     ],
     "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."

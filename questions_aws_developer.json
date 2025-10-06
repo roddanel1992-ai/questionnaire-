@@ -131,7 +131,8 @@
     "options": [
       "Add a global secondary index (GSI) to the DynamoDB table with customer-type input, as the partition key and email_address as the sort ke",
       "Perform a query operation on the GSI by using the begins with key condition expression with the email_address property. Add a global secondary index (GSI) to the DynamoDB table with email_address as the partition key and customer_type as the sort",
-      "Perform a query operation on the GSI by using the begine_with key condition expresses with the emai"
+      "Perform a query operation on the GSI by using the begine_with key condition expresses with the emai",
+      "Configure settings manually"
     ],
     "answer": "Add a global secondary index (GSI) to the DynamoDB table with customer-type input, as the partition key and email_address as the sort ke",
     "explanation": "The solution that will meet the requirements is to add a global secondary index (GSI) to the DynamoDB table with customer_type as the partition key and email_address as the sort key. Perform a query operation on the GSI by using the begins_with key condition expression with the email_address property. This way, the developer can search for partial matches of the email_address property of a particular customer type without recreating the DynamoDB table. The other options either involve using a local secondary index (LSI), which requires recreating the table, or using a different partition key, which does not allow filtering by customer_type. Reference: Using Global Secondary Indexes in DynamoDB"
@@ -303,7 +304,8 @@
     "options": [
       "Hardcode the credentials that are required to access the S3 objects in the application cod",
       "Use the credentials to access me required S3 objects.",
-      "D. Store the key and key ID in AWS Secrets Manage"
+      "D. Store the key and key ID in AWS Secrets Manage",
+      "Configure settings manually"
     ],
     "answer": "D. Store the key and key ID in AWS Secrets Manage",
     "explanation": "This solution will meet the requirements by creating a Lambda function execution role, which is an IAM role that grants permissions to a Lambda function to access AWS resources such as Amazon S3 objects. The developer can attach a policy to the role that grants access to specific objects in the S3 bucket that are required by the application, following the principle of least privilege. Option A is not optimal because it will hardcode the credentials that are required to access S3 objects in the application code, which is insecure and difficult to maintain. Option B is not optimal because it will create a secret access key and access key ID with permission to access the S3 bucket, which will introduce additional security risks and complexity for storing and managing credentials. Option D is not optimal because it will store the secret access key and access key ID as environment variables in Lambda, which is also insecure and difficult to maintain."
@@ -405,7 +407,8 @@
     "options": [
       "Rewrite the application to be cloud native and to run on AWS Lambda, where the logs can be reviewed in Amazon CloudWatch",
       "Set up centralized logging by using Amazon OpenSearch Service, Logstash, and OpenSearch Dashboards Scale down the application to one larger EC2 instance where only one instance is recording logs",
-      "D. Install the unified Amazon CloudWatch agent on the EC2 instances Configure the agent to push the application logs to CloudWatch"
+      "D. Install the unified Amazon CloudWatch agent on the EC2 instances Configure the agent to push the application logs to CloudWatch",
+      "Configure settings manually"
     ],
     "answer": "Rewrite the application to be cloud native and to run on AWS Lambda, where the logs can be reviewed in Amazon CloudWatch",
     "explanation": "The unified Amazon CloudWatch agent can collect both system metrics and log files from Amazon EC2 instances and on-premises servers. By installing and configuring the agent on the EC2 instances, the developer can easily access and analyze the application logs in CloudWatch without logging in to each server individually. This option requires minimum changes to the existing application and does not affect its availability or scalability. References ? Using the CloudWatch Agent ? Collecting Metrics and Logs from Amazon EC2 Instances and On-Premises Servers with the CloudWatch Agent"
@@ -799,7 +802,8 @@
     "options": [
       "B. Use an Amazon Linux crontab scheduled job that runs on Amazon EC2.",
       "Use an AWS Lambda function that is invoked by an Amazon EventBridge scheduled event.",
-      "Use an AWS Batch job that is submitted to an AWS Batch job queue."
+      "Use an AWS Batch job that is submitted to an AWS Batch job queue.",
+      "Configure settings manually"
     ],
     "answer": "Use an AWS Batch job that is submitted to an AWS Batch job queue.",
     "explanation": "The correct answer is C. Use an AWS Lambda function that is invoked by an Amazon EventBridge scheduled event. * C. Use an AWS Lambda function that is invoked by an Amazon EventBridge scheduled event. This is correct. AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers. Lambda runs your code on a high-availability compute infrastructure and performs all of the administration of the compute resources, including server and operating system maintenance, capacity provisioning and automatic scaling, and logging1. Amazon EventBridge is a serverless event bus service that enables you to connect your applications with data from a variety of sources2. EventBridge can create rules that run on a schedule, either at regular intervals or at specific times and dates, and invoke targets such as Lambda functions3. This solution meets the requirements of creating a small application that makes the same API call once each day at a designated time, wi"
@@ -1058,7 +1062,8 @@
     "options": [
       "Server-side encryption with Amazon S3 managed keys (SSE-S3) Server-side encryption with AWS KMS managed keys (SSE-KMS}",
       "C. Server-side encryption with customer-provided keys (SSE-C)",
-      "Server-side encryption with self-managed keys"
+      "Server-side encryption with self-managed keys",
+      "Configure settings manually"
     ],
     "answer": "C. Server-side encryption with customer-provided keys (SSE-C)",
     "explanation": "This solution meets the requirements because it encrypts data at rest using AWS KMS keys and provides an audit trail of when and by whom they were used. Server- side encryption with AWS KMS managed keys (SSE-KMS) is a feature of Amazon S3 that encrypts data using keys that are managed by AWS KMS. When SSE-KMS is enabled for an S3 bucket or object, S3 requests AWS KMS to generate data keys and encrypts data using these keys. AWS KMS logs every use of its keys in AWS CloudTrail, which records all API calls to AWS KMS as events. These events include information such as who made the request, when it was made, and which key was used. The company policy can use CloudTrail logs to audit critical events related to their data encryption and access. Server- side encryption with Amazon S3 managed keys (SSE-S3) also encrypts data at rest using keys that are managed by S3, but does not provide an audit trail of key usage. Server-side encryption with customer-provided keys (SSE-C) and server-side en"
@@ -1182,7 +1187,8 @@
     "options": [
       "B. Query the instance user data from http '169 254.169 254. latest/user-data/",
       "Query the Amazon Machine Image (AMI) information from http://169.254.169.254/latest/meta-data/ami/.",
-      "Check the hosts file of the operating system"
+      "Check the hosts file of the operating system",
+      "Configure settings manually"
     ],
     "answer": "B. Query the instance user data from http '169 254.169 254. latest/user-data/",
     "explanation": "The instance metadata service provides information about the EC2 instance, including the public IPv4 address, which can be obtained by querying the endpoint http://169.254.169.254/latest/meta-data/public-ipv4. References ? Instance metadata and user data ? Get Public IP Address on current EC2 Instance ? Get the public ip address of your EC2 instance quickly"
@@ -2372,7 +2378,9 @@
     "question": "Which AWS service is best for serverless compute?",
     "options": [
       "Lambda",
-      "CloudWatch"
+      "CloudWatch",
+      "Configure settings manually",
+      "Use the Azure portal"
     ],
     "answer": "Lambda",
     "explanation": "This service provides the optimal solution for this use case in AWS."
@@ -2382,7 +2390,8 @@
     "options": [
       "Lambda",
       "ECS",
-      "CloudWatch"
+      "CloudWatch",
+      "Configure settings manually"
     ],
     "answer": "ECS",
     "explanation": "This service provides the optimal solution for this use case in AWS."
@@ -2414,7 +2423,9 @@
     "question": "Which AWS service is best for monitoring?",
     "options": [
       "Lambda",
-      "CloudWatch"
+      "CloudWatch",
+      "Configure settings manually",
+      "Use the Azure portal"
     ],
     "answer": "CloudWatch",
     "explanation": "This service provides the optimal solution for this use case in AWS."
@@ -2424,7 +2435,8 @@
     "options": [
       "Lambda",
       "ECS",
-      "CloudWatch"
+      "CloudWatch",
+      "Configure settings manually"
     ],
     "answer": "Lambda",
     "explanation": "This service provides the optimal solution for this use case in AWS."
@@ -2455,8 +2467,10 @@
   {
     "question": "Which AWS service is best for caching?",
     "options": [
+      "ElastiCache",
       "Lambda",
-      "CloudWatch"
+      "CloudWatch",
+      "Configure settings manually"
     ],
     "answer": "ElastiCache",
     "explanation": "This service provides the optimal solution for this use case in AWS."
@@ -2466,7 +2480,8 @@
     "options": [
       "Lambda",
       "ECS",
-      "CloudWatch"
+      "CloudWatch",
+      "Configure settings manually"
     ],
     "answer": "CloudWatch",
     "explanation": "This service provides the optimal solution for this use case in AWS."
@@ -2497,8 +2512,10 @@
   {
     "question": "Which AWS service is best for message queuing?",
     "options": [
+      "SQS",
       "Lambda",
-      "CloudWatch"
+      "CloudWatch",
+      "Configure settings manually"
     ],
     "answer": "SQS",
     "explanation": "This service provides the optimal solution for this use case in AWS."
@@ -2506,216 +2523,7 @@
   {
     "question": "Which AWS service is best for caching?",
     "options": [
-      "Lambda",
-      "ECS",
-      "CloudWatch"
-    ],
-    "answer": "ElastiCache",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for monitoring?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
-      "CloudWatch"
-    ],
-    "answer": "CloudWatch",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for serverless compute?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
       "ElastiCache",
-      "CloudWatch"
-    ],
-    "answer": "Lambda",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for container orchestration?",
-    "options": [
-      "Lambda",
-      "CloudWatch"
-    ],
-    "answer": "ECS",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for message queuing?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "CloudWatch"
-    ],
-    "answer": "SQS",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for caching?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
-      "CloudWatch"
-    ],
-    "answer": "ElastiCache",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for monitoring?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
-      "ElastiCache",
-      "CloudWatch"
-    ],
-    "answer": "CloudWatch",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for serverless compute?",
-    "options": [
-      "Lambda",
-      "CloudWatch"
-    ],
-    "answer": "Lambda",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for container orchestration?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "CloudWatch"
-    ],
-    "answer": "ECS",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for message queuing?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
-      "CloudWatch"
-    ],
-    "answer": "SQS",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for caching?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
-      "ElastiCache",
-      "CloudWatch"
-    ],
-    "answer": "ElastiCache",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for monitoring?",
-    "options": [
-      "Lambda",
-      "CloudWatch"
-    ],
-    "answer": "CloudWatch",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for serverless compute?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "CloudWatch"
-    ],
-    "answer": "Lambda",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for container orchestration?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
-      "CloudWatch"
-    ],
-    "answer": "ECS",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for message queuing?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
-      "ElastiCache",
-      "CloudWatch"
-    ],
-    "answer": "SQS",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for caching?",
-    "options": [
-      "Lambda",
-      "CloudWatch"
-    ],
-    "answer": "ElastiCache",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for monitoring?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "CloudWatch"
-    ],
-    "answer": "CloudWatch",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for serverless compute?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
-      "CloudWatch"
-    ],
-    "answer": "Lambda",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for container orchestration?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
-      "ElastiCache",
-      "CloudWatch"
-    ],
-    "answer": "ECS",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for message queuing?",
-    "options": [
-      "Lambda",
-      "CloudWatch"
-    ],
-    "answer": "SQS",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for caching?",
-    "options": [
       "Lambda",
       "ECS",
       "CloudWatch"
@@ -2749,8 +2557,10 @@
   {
     "question": "Which AWS service is best for container orchestration?",
     "options": [
+      "ECS",
       "Lambda",
-      "CloudWatch"
+      "CloudWatch",
+      "Configure settings manually"
     ],
     "answer": "ECS",
     "explanation": "This service provides the optimal solution for this use case in AWS."
@@ -2758,6 +2568,7 @@
   {
     "question": "Which AWS service is best for message queuing?",
     "options": [
+      "SQS",
       "Lambda",
       "ECS",
       "CloudWatch"
@@ -2792,7 +2603,9 @@
     "question": "Which AWS service is best for serverless compute?",
     "options": [
       "Lambda",
-      "CloudWatch"
+      "CloudWatch",
+      "Configure settings manually",
+      "Use the Azure portal"
     ],
     "answer": "Lambda",
     "explanation": "This service provides the optimal solution for this use case in AWS."
@@ -2802,7 +2615,8 @@
     "options": [
       "Lambda",
       "ECS",
-      "CloudWatch"
+      "CloudWatch",
+      "Configure settings manually"
     ],
     "answer": "ECS",
     "explanation": "This service provides the optimal solution for this use case in AWS."
@@ -2834,7 +2648,9 @@
     "question": "Which AWS service is best for monitoring?",
     "options": [
       "Lambda",
-      "CloudWatch"
+      "CloudWatch",
+      "Configure settings manually",
+      "Use the Azure portal"
     ],
     "answer": "CloudWatch",
     "explanation": "This service provides the optimal solution for this use case in AWS."
@@ -2844,7 +2660,8 @@
     "options": [
       "Lambda",
       "ECS",
-      "CloudWatch"
+      "CloudWatch",
+      "Configure settings manually"
     ],
     "answer": "Lambda",
     "explanation": "This service provides the optimal solution for this use case in AWS."
@@ -2875,8 +2692,10 @@
   {
     "question": "Which AWS service is best for caching?",
     "options": [
+      "ElastiCache",
       "Lambda",
-      "CloudWatch"
+      "CloudWatch",
+      "Configure settings manually"
     ],
     "answer": "ElastiCache",
     "explanation": "This service provides the optimal solution for this use case in AWS."
@@ -2886,7 +2705,8 @@
     "options": [
       "Lambda",
       "ECS",
-      "CloudWatch"
+      "CloudWatch",
+      "Configure settings manually"
     ],
     "answer": "CloudWatch",
     "explanation": "This service provides the optimal solution for this use case in AWS."
@@ -2917,8 +2737,10 @@
   {
     "question": "Which AWS service is best for message queuing?",
     "options": [
+      "SQS",
       "Lambda",
-      "CloudWatch"
+      "CloudWatch",
+      "Configure settings manually"
     ],
     "answer": "SQS",
     "explanation": "This service provides the optimal solution for this use case in AWS."
@@ -2926,216 +2748,7 @@
   {
     "question": "Which AWS service is best for caching?",
     "options": [
-      "Lambda",
-      "ECS",
-      "CloudWatch"
-    ],
-    "answer": "ElastiCache",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for monitoring?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
-      "CloudWatch"
-    ],
-    "answer": "CloudWatch",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for serverless compute?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
       "ElastiCache",
-      "CloudWatch"
-    ],
-    "answer": "Lambda",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for container orchestration?",
-    "options": [
-      "Lambda",
-      "CloudWatch"
-    ],
-    "answer": "ECS",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for message queuing?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "CloudWatch"
-    ],
-    "answer": "SQS",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for caching?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
-      "CloudWatch"
-    ],
-    "answer": "ElastiCache",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for monitoring?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
-      "ElastiCache",
-      "CloudWatch"
-    ],
-    "answer": "CloudWatch",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for serverless compute?",
-    "options": [
-      "Lambda",
-      "CloudWatch"
-    ],
-    "answer": "Lambda",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for container orchestration?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "CloudWatch"
-    ],
-    "answer": "ECS",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for message queuing?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
-      "CloudWatch"
-    ],
-    "answer": "SQS",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for caching?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
-      "ElastiCache",
-      "CloudWatch"
-    ],
-    "answer": "ElastiCache",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for monitoring?",
-    "options": [
-      "Lambda",
-      "CloudWatch"
-    ],
-    "answer": "CloudWatch",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for serverless compute?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "CloudWatch"
-    ],
-    "answer": "Lambda",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for container orchestration?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
-      "CloudWatch"
-    ],
-    "answer": "ECS",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for message queuing?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
-      "ElastiCache",
-      "CloudWatch"
-    ],
-    "answer": "SQS",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for caching?",
-    "options": [
-      "Lambda",
-      "CloudWatch"
-    ],
-    "answer": "ElastiCache",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for monitoring?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "CloudWatch"
-    ],
-    "answer": "CloudWatch",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for serverless compute?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
-      "CloudWatch"
-    ],
-    "answer": "Lambda",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for container orchestration?",
-    "options": [
-      "Lambda",
-      "ECS",
-      "SQS",
-      "ElastiCache",
-      "CloudWatch"
-    ],
-    "answer": "ECS",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for message queuing?",
-    "options": [
-      "Lambda",
-      "CloudWatch"
-    ],
-    "answer": "SQS",
-    "explanation": "This service provides the optimal solution for this use case in AWS."
-  },
-  {
-    "question": "Which AWS service is best for caching?",
-    "options": [
       "Lambda",
       "ECS",
       "CloudWatch"
@@ -3169,8 +2782,10 @@
   {
     "question": "Which AWS service is best for container orchestration?",
     "options": [
+      "ECS",
       "Lambda",
-      "CloudWatch"
+      "CloudWatch",
+      "Configure settings manually"
     ],
     "answer": "ECS",
     "explanation": "This service provides the optimal solution for this use case in AWS."
@@ -3178,6 +2793,7 @@
   {
     "question": "Which AWS service is best for message queuing?",
     "options": [
+      "SQS",
       "Lambda",
       "ECS",
       "CloudWatch"
@@ -3212,7 +2828,9 @@
     "question": "Which AWS service is best for serverless compute?",
     "options": [
       "Lambda",
-      "CloudWatch"
+      "CloudWatch",
+      "Configure settings manually",
+      "Use the Azure portal"
     ],
     "answer": "Lambda",
     "explanation": "This service provides the optimal solution for this use case in AWS."
@@ -3222,7 +2840,8 @@
     "options": [
       "Lambda",
       "ECS",
-      "CloudWatch"
+      "CloudWatch",
+      "Configure settings manually"
     ],
     "answer": "ECS",
     "explanation": "This service provides the optimal solution for this use case in AWS."
@@ -3254,6 +2873,120 @@
     "question": "Which AWS service is best for monitoring?",
     "options": [
       "Lambda",
+      "CloudWatch",
+      "Configure settings manually",
+      "Use the Azure portal"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch",
+      "Configure settings manually"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "ElastiCache",
+      "Lambda",
+      "CloudWatch",
+      "Configure settings manually"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch",
+      "Configure settings manually"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "SQS",
+      "Lambda",
+      "CloudWatch",
+      "Configure settings manually"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "ElastiCache",
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
       "CloudWatch"
     ],
     "answer": "CloudWatch",
@@ -3264,7 +2997,346 @@
     "options": [
       "Lambda",
       "ECS",
+      "SQS",
+      "ElastiCache",
       "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "ECS",
+      "Lambda",
+      "CloudWatch",
+      "Configure settings manually"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "SQS",
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "CloudWatch",
+      "Configure settings manually",
+      "Use the Azure portal"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch",
+      "Configure settings manually"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "CloudWatch",
+      "Configure settings manually",
+      "Use the Azure portal"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch",
+      "Configure settings manually"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "ElastiCache",
+      "Lambda",
+      "CloudWatch",
+      "Configure settings manually"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch",
+      "Configure settings manually"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "SQS",
+      "Lambda",
+      "CloudWatch",
+      "Configure settings manually"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "ElastiCache",
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "ECS",
+      "Lambda",
+      "CloudWatch",
+      "Configure settings manually"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "SQS",
+      "Lambda",
+      "ECS",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "CloudWatch",
+      "Configure settings manually",
+      "Use the Azure portal"
+    ],
+    "answer": "Lambda",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for container orchestration?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch",
+      "Configure settings manually"
+    ],
+    "answer": "ECS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for message queuing?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "CloudWatch"
+    ],
+    "answer": "SQS",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for caching?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "SQS",
+      "ElastiCache",
+      "CloudWatch"
+    ],
+    "answer": "ElastiCache",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for monitoring?",
+    "options": [
+      "Lambda",
+      "CloudWatch",
+      "Configure settings manually",
+      "Use the Azure portal"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "This service provides the optimal solution for this use case in AWS."
+  },
+  {
+    "question": "Which AWS service is best for serverless compute?",
+    "options": [
+      "Lambda",
+      "ECS",
+      "CloudWatch",
+      "Configure settings manually"
     ],
     "answer": "Lambda",
     "explanation": "This service provides the optimal solution for this use case in AWS."

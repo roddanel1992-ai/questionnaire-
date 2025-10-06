@@ -304,7 +304,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -312,7 +313,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -358,7 +362,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -366,7 +371,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -412,7 +420,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -420,7 +429,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -466,7 +478,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -474,7 +487,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -520,7 +536,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -528,7 +545,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -574,7 +594,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -582,7 +603,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -628,7 +652,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -636,7 +661,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -682,7 +710,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -690,7 +719,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -736,7 +768,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -744,7 +777,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -790,7 +826,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -798,7 +835,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -844,7 +884,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -852,7 +893,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -898,7 +942,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -906,7 +951,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -952,7 +1000,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -960,7 +1009,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1006,7 +1058,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1014,7 +1067,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1060,7 +1116,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1068,7 +1125,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1114,7 +1174,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1122,7 +1183,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1168,7 +1232,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1176,7 +1241,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1222,7 +1290,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1230,7 +1299,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1276,7 +1348,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1284,7 +1357,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1330,7 +1406,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1338,7 +1415,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1384,7 +1464,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1392,7 +1473,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1438,7 +1522,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1446,7 +1531,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1492,7 +1580,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1500,7 +1589,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1546,7 +1638,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1554,7 +1647,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1600,7 +1696,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1608,7 +1705,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1654,7 +1754,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1662,7 +1763,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1708,7 +1812,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1716,7 +1821,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1762,7 +1870,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1770,7 +1879,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1816,7 +1928,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1824,7 +1937,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1870,7 +1986,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1878,7 +1995,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1924,7 +2044,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1932,7 +2053,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1978,7 +2102,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -1986,7 +2111,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2032,7 +2160,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2040,7 +2169,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2086,7 +2218,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2094,7 +2227,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2140,7 +2276,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2148,7 +2285,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2194,7 +2334,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2202,7 +2343,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2248,7 +2392,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2256,7 +2401,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2302,7 +2450,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2310,7 +2459,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2356,7 +2508,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2364,7 +2517,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2410,7 +2566,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2418,7 +2575,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2464,7 +2624,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2472,7 +2633,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2518,7 +2682,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2526,7 +2691,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2572,7 +2740,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2580,7 +2749,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2626,7 +2798,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2634,7 +2807,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2680,7 +2856,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2688,7 +2865,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2734,7 +2914,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2742,7 +2923,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2788,7 +2972,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2796,7 +2981,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2842,7 +3030,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2850,7 +3039,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2896,7 +3088,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2904,7 +3097,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2950,7 +3146,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -2958,7 +3155,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -3004,7 +3204,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -3012,7 +3213,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -3058,7 +3262,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -3066,7 +3271,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -3112,7 +3320,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -3120,7 +3329,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -3166,7 +3378,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -3174,7 +3387,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
@@ -3220,7 +3436,8 @@
     "options": [
       "Redis Cache",
       "Service Bus",
-      "App Service"
+      "App Service",
+      "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
@@ -3228,7 +3445,10 @@
   {
     "question": "What Azure service provides message queuing?",
     "options": [
-      "Service Bus"
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
     ],
     "answer": "Service Bus",
     "explanation": "This Azure service is designed for this specific use case."
