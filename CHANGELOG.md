@@ -1,152 +1,209 @@
-# Changelog - AWS Certification Practice Platform
+# Changelog
 
-## Version 3.0 (Latest) - Multi-Certification Support 🎓
+All notable changes to this project will be documented in this file.
 
-### Major Features
-✅ **Dual Certification Paths**
-- AWS Certified Developer - Associate (DVA-C02) - 122 questions
-- AWS Certified AI Practitioner (AIF-C01) - 50 questions
-
-✅ **Certificate Selection Screen**
-- Beautiful landing page with two certification cards
-- Hover effects and smooth animations
-- Clear certification details and descriptions
-- Separate icons for each certification path
-
-### What Changed
-- Added `cert-selection-page` as the new entry point
-- Dynamic question loading based on certification choice
-- Updated navigation flow: Selection → Home → Quiz → Results
-- Added `questions_ai.json` for AI Practitioner certification
-- New CSS styles for certification cards
-- Updated app logic to handle multiple certifications
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
-## Version 2.1 - Enterprise Testing Infrastructure 🧪
+## [2.0.0] - 2025-10-06
+
+### 🎉 Major Release: Multi-Cloud Platform
 
 ### Added
-✅ **Comprehensive Test Suite**
-- 70+ unit tests covering all business logic
-- 30+ E2E tests across 5 browsers
-- 80%+ code coverage requirement
-- Automated CI/CD pipeline with GitHub Actions
+- **Azure Certifications Support**
+  - Microsoft Certified: Azure Developer Associate (AZ-204)
+  - Microsoft Certified: Azure AI Engineer Associate (AI-102)
+- **Multi-Cloud Interface**
+  - Provider selection screen (AWS vs Azure)
+  - Provider-specific branding and colors
+  - Separate question banks per certification
+- **21 Azure Developer Questions** covering:
+  - Azure App Service & Functions
+  - Container solutions (ACI, AKS)
+  - Azure storage & Cosmos DB
+  - Security (Key Vault, Managed Identity)
+  - Messaging (Service Bus, Event Hubs)
+- **21 Azure AI Questions** covering:
+  - Azure Cognitive Services
+  - Computer Vision & Custom Vision
+  - NLP & Language services
+  - Speech services
+  - Bot Service & conversational AI
+  - Azure Machine Learning
+  - Responsible AI
 
-✅ **Quality Tools**
-- Jest for unit testing
-- Playwright for E2E testing
-- ESLint for code quality
-- Automated test reports
+### Changed
+- **Renamed Question Files** for clarity:
+  - `questions_full.json` → `questions_aws_developer.json`
+  - `questions_ai.json` → `questions_aws_ai.json`
+- **Updated Main Page Title**
+  - "AWS Certification Practice" → "Cloud Certification Practice - AWS & Azure"
+- **Reorganized Certification Cards**
+  - Grouped by cloud provider (AWS/Azure)
+  - Added provider badges
+  - Updated color schemes per provider
+- **Enhanced Styling**
+  - Azure blue color scheme (#0078D4, #00A4EF)
+  - AWS orange maintained (#FF9900)
+  - Provider-specific hover effects
+  - Improved card layout for 4 certifications
 
-### Files Added
-- `package.json` - Node dependencies
-- `tests/unit/app.test.js` - Unit tests
-- `tests/e2e/quiz.spec.js` - E2E tests
-- `playwright.config.js` - Test configuration
-- `.github/workflows/test.yml` - CI/CD pipeline
-- `.eslintrc.json` - Linting rules
-- `TESTING.md` - Testing documentation
+### Updated Documentation
+- `README.md` - Multi-cloud platform overview
+- `CERTIFICATIONS.md` - Detailed certification guide (NEW)
+- `CHANGELOG.md` - Version history
+
+### Technical Improvements
+- Dynamic certification loading based on selection
+- Updated `CERTIFICATIONS` config with 4 paths
+- Color-coded UI per cloud provider
+- Improved question bank management
 
 ---
 
-## Version 2.0 - Production Quality 🚀
+## [1.5.0] - 2025-10-05
+
+### Added
+- **Dual Certification Paths**
+  - AWS Certified Developer - Associate (DVA-C02)
+  - AWS Certified AI Practitioner (AIF-C01)
+- **Certification Selection Screen**
+  - Beautiful card-based UI
+  - Comparison grid for decision-making
+  - Individual question counts per path
+
+### Changed
+- Added certification path selection before quiz
+- Separated question banks by certification type
+- Updated homepage to show selected certification info
+
+---
+
+## [1.4.0] - 2025-10-04
+
+### Added
+- **Comprehensive Testing Suite**
+  - 70+ unit tests with Jest
+  - 30+ E2E tests with Playwright
+  - 80%+ code coverage
+- **CI/CD Pipeline**
+  - GitHub Actions workflow
+  - Automated testing on every push
+  - Deployment gates based on test results
+- **Test Documentation**
+  - TESTING.md with detailed testing guide
+  - Test running instructions
+  - Coverage reports
+
+### Changed
+- Improved code quality with ESLint
+- Added validation scripts
+- Enhanced error handling
+
+---
+
+## [1.3.0] - 2025-10-03
 
 ### Fixed
-✅ **CSS Hover Bug**
-- Options no longer stay orange after deselection
-- Hover only applies to unselected options
+- **CSS Hover Bug**
+  - Fixed persistent orange hover effect on unselected options
+  - Updated `.option:hover` to `.option:hover:not(.selected)`
+  - Improved visual feedback for selected options
 
-✅ **Question Quality**
-- Cleaned all 139 questions from PDFs
-- Removed spam/watermark text
-- Fixed truncated words
-- Validated all question formats
-- Final count: 122 high-quality questions
-
-### Improvements
-- Better text formatting
-- Removed broken/incomplete questions
-- Proper option lengths
-- Clean explanations
+### Changed
+- **Question Quality Improvements**
+  - Cleaned and validated all 122 questions
+  - Removed truncated and poorly formatted questions
+  - Enhanced explanations for clarity
+  - Verified all options and answers
 
 ---
 
-## Version 1.0 - Initial Release
+## [1.2.0] - 2025-10-02
 
-### Features
-✅ **Core Quiz Functionality**
-- 12-minute timed exams
-- 10 random questions per exam
-- Instant scoring and results
-- Detailed explanations
+### Added
+- **Letter-Based Options (A, B, C, D, E, F)**
+  - Changed from numeric (0-5) to professional letter format
+  - Better matches real exam experience
+- **Multiple Selection Support**
+  - Can now select multiple answers per question
+  - Checkbox-style interface
+  - Proper scoring for multi-answer questions
 
-✅ **UI/UX**
-- Letter-based options (A-F instead of numbers)
-- Multiple-choice checkboxes
-- Custom ROD logo with glasses
-- Modern, responsive design
-- Mobile-friendly
-
-✅ **Question Bank**
-- 139 questions extracted from PDFs
-- Multiple answer support
-- Professional formatting
+### Changed
+- Updated UI to show checkboxes instead of radio buttons
+- Improved answer validation logic
+- Enhanced results calculation for multiple selections
 
 ---
 
-## Technical Evolution
+## [1.1.0] - 2025-10-01
 
-### v1.0 → v2.0
-- Quality improvements
-- Bug fixes
-- Question cleanup
+### Added
+- **Netlify Deployment**
+  - Automatic deployment on every push
+  - Live demo at roddanel1992-ai-questionnaire.netlify.app
+  - CI/CD integration with GitHub
+- **Custom ROD Logo**
+  - Replaced AWS logo with custom "ROD" branding
+  - Added glasses icon for personality
+  - Improved logo visibility and styling
 
-### v2.0 → v2.1
-- Added testing infrastructure
-- CI/CD automation
-- Quality assurance for 1M+ users
-
-### v2.1 → v3.0
-- **Multi-certification support**
-- **Certificate selection UI**
-- **AI Practitioner exam added**
-- **Scalable architecture**
+### Changed
+- Better logo sizing and contrast
+- Updated branding throughout the app
 
 ---
 
-## Roadmap
+## [1.0.0] - 2025-09-30
 
-### Future Enhancements
-- [ ] Add more certifications (Solutions Architect, SysOps, etc.)
-- [ ] User accounts and progress tracking
-- [ ] Performance analytics dashboard
-- [ ] Study mode with spaced repetition
-- [ ] Mobile app (React Native)
-- [ ] Offline mode support
-- [ ] Multiple language support
-- [ ] Custom exam creation
+### 🎉 Initial Release
+
+### Added
+- **Core Features**
+  - 122 AWS DVA-C02 practice questions
+  - 12-minute timed exams
+  - 10 random questions per exam
+  - Instant results and scoring
+  - Detailed explanations
+- **User Interface**
+  - Modern gradient design
+  - Responsive layout
+  - Mobile-friendly
+  - Smooth animations
+- **Navigation**
+  - Previous/Next question buttons
+  - Progress bar
+  - Question counter
+- **Results Page**
+  - Animated score circle
+  - Pass/fail indicator (70% threshold)
+  - Time taken display
+  - Review and retake options
+- **Review Mode**
+  - See all questions with answers
+  - Correct answers in green
+  - Incorrect answers in red
+  - Full explanations
+
+### Documentation
+- README.md with full documentation
+- Setup instructions
+- Customization guide
 
 ---
 
-## For 1M+ Users
+## Legend
 
-### Production Readiness Checklist
-✅ Comprehensive testing (unit + E2E)
-✅ CI/CD pipeline automated
-✅ Clean, validated questions
-✅ Cross-browser compatibility
-✅ Mobile responsive
-✅ Performance optimized
-✅ Security validated
-✅ Error handling complete
-✅ Documentation comprehensive
-✅ Scalable architecture
+- 🎉 Major release
+- ✨ New feature
+- 🐛 Bug fix
+- 📚 Documentation
+- 🔧 Technical improvement
+- 🎨 UI/UX enhancement
+- ⚡ Performance improvement
 
 ---
 
-**Current Version: 3.0**  
-**Status: Production Ready**  
-**Users Supported: 1M+**  
-**Certifications: 2**  
-**Total Questions: 172**
-
+**For detailed information about each certification path, see [CERTIFICATIONS.md](CERTIFICATIONS.md)**
