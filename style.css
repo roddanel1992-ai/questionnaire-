@@ -318,7 +318,7 @@ body {
     font-size: 1.1rem;
 }
 
-.option:hover {
+.option:hover:not(.selected) {
     border-color: #FF9900;
     background: #fff8f0;
     transform: translateX(5px);
@@ -327,6 +327,7 @@ body {
 .option.selected {
     border-color: #FF9900;
     background: #fff8f0;
+    box-shadow: 0 2px 8px rgba(255, 153, 0, 0.2);
 }
 
 .option-checkbox {
