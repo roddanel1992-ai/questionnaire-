@@ -4,12 +4,14 @@ A modern, interactive web application for practicing AWS Certified Developer - A
 
 ## Features
 
-✨ **139 Real Exam Questions** - Extracted from actual DVA-C02 practice materials
+✨ **122 Professional Questions** - Cleaned and validated DVA-C02 exam questions
 ⏱️ **Timed Practice Exams** - 12-minute time limit for 10 random questions
 📊 **Instant Results** - Detailed score breakdown and performance metrics
 📚 **Answer Explanations** - Learn from detailed explanations for each question
 🎨 **Beautiful Modern UI** - Responsive design that works on all devices
 🔄 **Random Question Selection** - Different questions each time you practice
+🧪 **Full Test Coverage** - Unit & E2E tests for production quality
+✅ **CI/CD Pipeline** - Automated testing and deployment
 
 ## How to Use
 
@@ -32,10 +34,12 @@ npx http-server
 
 ## Exam Structure
 
-- **Questions per Exam**: 10 questions (randomly selected from 139)
+- **Questions per Exam**: 10 questions (randomly selected from 122)
 - **Time Limit**: 12 minutes
 - **Passing Score**: 70%
-- **Question Types**: Multiple choice (2-5 options)
+- **Question Types**: Multiple choice (2-6 options, letters A-F)
+- **Multiple Selection**: Can select multiple answers per question
+- **Test Coverage**: 80%+ unit and E2E tests
 
 ## Topics Covered
 
@@ -68,10 +72,19 @@ AWS exam/
 ├── index.html               # Main HTML file
 ├── style.css                # Styling and responsive design
 ├── app.js                   # Application logic and interactivity
-├── questions_full.json      # Question bank (139 questions extracted from PDFs)
-├── extract_full.py          # Python script to extract questions from PDF files
-├── exam_questions with answers/  # Folder containing PDF exam dumps
-└── README.md                # This file
+├── questions_full.json      # Question bank (122 cleaned questions)
+├── tests/
+│   ├── unit/
+│   │   └── app.test.js     # Unit tests for business logic
+│   └── e2e/
+│       └── quiz.spec.js    # End-to-end user flow tests
+├── .github/
+│   └── workflows/
+│       └── test.yml        # CI/CD pipeline
+├── package.json            # Node dependencies and scripts
+├── playwright.config.js    # E2E test configuration
+├── extract_full.py         # Question extraction script
+└── README.md               # This file
 ```
 
 ## Features in Detail
@@ -100,6 +113,41 @@ AWS exam/
 - Correct answers highlighted in green
 - Your incorrect answers shown in red
 - Detailed explanations for every question
+
+## Testing
+
+### Run Tests
+
+```bash
+# Install dependencies
+npm install
+
+# Run all tests
+npm test
+
+# Run unit tests only
+npm run test:unit
+
+# Run E2E tests only
+npm run test:e2e
+
+# Run with UI (Playwright)
+npm run test:e2e:ui
+
+# Validate everything
+npm run validate
+```
+
+### Test Coverage
+
+- **Unit Tests**: 80%+ coverage of business logic
+- **E2E Tests**: Complete user flow testing
+- **Browser Testing**: Chrome, Firefox, Safari, Mobile
+- **CI/CD**: Automated testing on every commit
+
+See [TESTING.md](TESTING.md) for detailed testing documentation.
+
+---
 
 ## Customization
 
