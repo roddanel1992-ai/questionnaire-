@@ -7,8 +7,12 @@
       "Creating web applications",
       "Monitoring infrastructure"
     ],
-    "answer": "Building, training, and deploying machine learning models",
-    "explanation": "Amazon SageMaker is a fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning models quickly."
+    "answer": [
+      "Building, training, and deploying machine learning models",
+      "Managing databases"
+    ],
+    "explanation": "Amazon SageMaker is a fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning models quickly.",
+    "correctCount": 2
   },
   {
     "question": "Which AWS service provides pre-trained AI services for adding computer vision, natural language, and recommendations to applications?",
@@ -19,7 +23,8 @@
       "AWS Lambda"
     ],
     "answer": "Amazon Rekognition, Amazon Comprehend, and Amazon Personalize",
-    "explanation": "AWS offers pre-trained AI services like Rekognition (computer vision), Comprehend (natural language processing), and Personalize (recommendations) that can be easily integrated into applications."
+    "explanation": "AWS offers pre-trained AI services like Rekognition (computer vision), Comprehend (natural language processing), and Personalize (recommendations) that can be easily integrated into applications.",
+    "correctCount": 1
   },
   {
     "question": "What is the primary purpose of Amazon Rekognition?",
@@ -29,8 +34,12 @@
       "Text translation",
       "Music generation"
     ],
-    "answer": "Image and video analysis",
-    "explanation": "Amazon Rekognition makes it easy to add image and video analysis to your applications using proven, highly scalable, deep learning technology."
+    "answer": [
+      "Image and video analysis",
+      "Speech recognition"
+    ],
+    "explanation": "Amazon Rekognition makes it easy to add image and video analysis to your applications using proven, highly scalable, deep learning technology.",
+    "correctCount": 2
   },
   {
     "question": "Which AWS service can convert text to lifelike speech?",
@@ -41,7 +50,8 @@
       "Amazon Lex"
     ],
     "answer": "Amazon Polly",
-    "explanation": "Amazon Polly is a service that turns text into lifelike speech, allowing you to create applications that talk and build entirely new categories of speech-enabled products."
+    "explanation": "Amazon Polly is a service that turns text into lifelike speech, allowing you to create applications that talk and build entirely new categories of speech-enabled products.",
+    "correctCount": 1
   },
   {
     "question": "What is Amazon Comprehend used for?",
@@ -51,8 +61,12 @@
       "Video streaming",
       "Data warehousing"
     ],
-    "answer": "Natural language processing and text analytics",
-    "explanation": "Amazon Comprehend is a natural language processing (NLP) service that uses machine learning to find insights and relationships in text."
+    "answer": [
+      "Natural language processing and text analytics",
+      "Image recognition"
+    ],
+    "explanation": "Amazon Comprehend is a natural language processing (NLP) service that uses machine learning to find insights and relationships in text.",
+    "correctCount": 2
   },
   {
     "question": "Which service would you use to build conversational interfaces using voice and text?",
@@ -63,7 +77,8 @@
       "Amazon Translate"
     ],
     "answer": "Amazon Lex",
-    "explanation": "Amazon Lex is a service for building conversational interfaces into any application using voice and text. It provides the advanced deep learning functionalities of automatic speech recognition (ASR) and natural language understanding (NLU)."
+    "explanation": "Amazon Lex is a service for building conversational interfaces into any application using voice and text. It provides the advanced deep learning functionalities of automatic speech recognition (ASR) and natural language understanding (NLU).",
+    "correctCount": 1
   },
   {
     "question": "What is Amazon Forecast primarily used for?",
@@ -74,7 +89,8 @@
       "Network traffic monitoring"
     ],
     "answer": "Time-series forecasting using machine learning",
-    "explanation": "Amazon Forecast is a fully managed service that uses machine learning to deliver highly accurate forecasts based on time-series data."
+    "explanation": "Amazon Forecast is a fully managed service that uses machine learning to deliver highly accurate forecasts based on time-series data.",
+    "correctCount": 1
   },
   {
     "question": "Which AWS service helps detect potentially fraudulent online activities?",
@@ -85,7 +101,8 @@
       "Amazon Macie"
     ],
     "answer": "Amazon Fraud Detector",
-    "explanation": "Amazon Fraud Detector is a fully managed service that uses machine learning to identify potentially fraudulent activities online."
+    "explanation": "Amazon Fraud Detector is a fully managed service that uses machine learning to identify potentially fraudulent activities online.",
+    "correctCount": 1
   },
   {
     "question": "What is Amazon Transcribe designed to do?",
@@ -96,7 +113,8 @@
       "Analyze sentiment in text"
     ],
     "answer": "Convert speech to text",
-    "explanation": "Amazon Transcribe is an automatic speech recognition (ASR) service that makes it easy to add speech-to-text capability to applications."
+    "explanation": "Amazon Transcribe is an automatic speech recognition (ASR) service that makes it easy to add speech-to-text capability to applications.",
+    "correctCount": 1
   },
   {
     "question": "Which service provides personalized recommendations for users?",
@@ -107,7 +125,8 @@
       "Amazon Rekognition"
     ],
     "answer": "Amazon Personalize",
-    "explanation": "Amazon Personalize is a machine learning service that makes it easy to develop individualized recommendations for customers using your applications."
+    "explanation": "Amazon Personalize is a machine learning service that makes it easy to develop individualized recommendations for customers using your applications.",
+    "correctCount": 1
   },
   {
     "question": "What type of machine learning does Amazon Rekognition use?",
@@ -118,7 +137,8 @@
       "Rule-based systems"
     ],
     "answer": "Deep learning",
-    "explanation": "Amazon Rekognition uses deep learning technology to analyze images and videos at scale."
+    "explanation": "Amazon Rekognition uses deep learning technology to analyze images and videos at scale.",
+    "correctCount": 1
   },
   {
     "question": "Which AWS service can translate text between languages?",
@@ -128,8 +148,12 @@
       "Amazon Transcribe",
       "Amazon Polly"
     ],
-    "answer": "Amazon Translate",
-    "explanation": "Amazon Translate is a neural machine translation service that delivers fast, high-quality, and affordable language translation."
+    "answer": [
+      "Amazon Translate",
+      "Amazon Comprehend"
+    ],
+    "explanation": "Amazon Translate is a neural machine translation service that delivers fast, high-quality, and affordable language translation.",
+    "correctCount": 2
   },
   {
     "question": "What is AWS DeepRacer?",
@@ -140,7 +164,8 @@
       "A content delivery network"
     ],
     "answer": "An autonomous racing car for learning reinforcement learning",
-    "explanation": "AWS DeepRacer is an autonomous 1/18th scale race car designed to help developers get hands-on with reinforcement learning."
+    "explanation": "AWS DeepRacer is an autonomous 1/18th scale race car designed to help developers get hands-on with reinforcement learning.",
+    "correctCount": 1
   },
   {
     "question": "Which service helps extract text and data from documents?",
@@ -150,8 +175,12 @@
       "Amazon Transcribe",
       "Amazon Translate"
     ],
-    "answer": "Amazon Textract",
-    "explanation": "Amazon Textract is a machine learning service that automatically extracts text, handwriting, and data from scanned documents."
+    "answer": [
+      "Amazon Textract",
+      "Amazon Comprehend"
+    ],
+    "explanation": "Amazon Textract is a machine learning service that automatically extracts text, handwriting, and data from scanned documents.",
+    "correctCount": 2
   },
   {
     "question": "What is Amazon Kendra used for?",
@@ -162,7 +191,8 @@
       "Container orchestration"
     ],
     "answer": "Intelligent enterprise search powered by machine learning",
-    "explanation": "Amazon Kendra is an intelligent search service powered by machine learning that enables users to search unstructured data using natural language."
+    "explanation": "Amazon Kendra is an intelligent search service powered by machine learning that enables users to search unstructured data using natural language.",
+    "correctCount": 1
   },
   {
     "question": "Which AWS service provides automatic code reviews powered by machine learning?",
@@ -173,7 +203,8 @@
       "AWS CodeDeploy"
     ],
     "answer": "Amazon CodeGuru",
-    "explanation": "Amazon CodeGuru is a developer tool powered by machine learning that provides intelligent recommendations for improving code quality and identifying an application's most expensive lines of code."
+    "explanation": "Amazon CodeGuru is a developer tool powered by machine learning that provides intelligent recommendations for improving code quality and identifying an application's most expensive lines of code.",
+    "correctCount": 1
   },
   {
     "question": "What is Amazon Lookout for Equipment?",
@@ -184,7 +215,8 @@
       "A database optimization tool"
     ],
     "answer": "An ML service that detects abnormal equipment behavior",
-    "explanation": "Amazon Lookout for Equipment uses machine learning to detect abnormal equipment behavior by analyzing sensor data to help predict equipment failures before they occur."
+    "explanation": "Amazon Lookout for Equipment uses machine learning to detect abnormal equipment behavior by analyzing sensor data to help predict equipment failures before they occur.",
+    "correctCount": 1
   },
   {
     "question": "Which type of machine learning involves training a model with labeled data?",
@@ -194,8 +226,12 @@
       "Reinforcement learning",
       "Transfer learning"
     ],
-    "answer": "Supervised learning",
-    "explanation": "Supervised learning is a type of machine learning where the model is trained on labeled data, meaning the training data includes both input and the correct output."
+    "answer": [
+      "Supervised learning",
+      "Unsupervised learning"
+    ],
+    "explanation": "Supervised learning is a type of machine learning where the model is trained on labeled data, meaning the training data includes both input and the correct output.",
+    "correctCount": 2
   },
   {
     "question": "What is Amazon Augmented AI (A2I)?",
@@ -205,8 +241,12 @@
       "A virtual reality service",
       "A database service"
     ],
-    "answer": "A service for human review of ML predictions",
-    "explanation": "Amazon Augmented AI (A2I) makes it easy to build workflows required for human review of ML predictions, providing human oversight when needed."
+    "answer": [
+      "A service for human review of ML predictions",
+      "A service for automating infrastructure"
+    ],
+    "explanation": "Amazon Augmented AI (A2I) makes it easy to build workflows required for human review of ML predictions, providing human oversight when needed.",
+    "correctCount": 2
   },
   {
     "question": "Which AWS service can identify objects, people, text, scenes, and activities in images?",
@@ -216,8 +256,12 @@
       "Amazon Textract",
       "Amazon Polly"
     ],
-    "answer": "Amazon Rekognition",
-    "explanation": "Amazon Rekognition can identify objects, people, text, scenes, and activities in images and videos, as well as detect any inappropriate content."
+    "answer": [
+      "Amazon Rekognition",
+      "Amazon Comprehend"
+    ],
+    "explanation": "Amazon Rekognition can identify objects, people, text, scenes, and activities in images and videos, as well as detect any inappropriate content.",
+    "correctCount": 2
   },
   {
     "question": "What is the primary benefit of using pre-trained AI services?",
@@ -239,7 +283,8 @@
       "Amazon Forecast"
     ],
     "answer": "Amazon Comprehend",
-    "explanation": "Amazon Comprehend can perform sentiment analysis to determine whether text is positive, negative, neutral, or mixed, making it ideal for analyzing customer feedback."
+    "explanation": "Amazon Comprehend can perform sentiment analysis to determine whether text is positive, negative, neutral, or mixed, making it ideal for analyzing customer feedback.",
+    "correctCount": 1
   },
   {
     "question": "What is Amazon Bedrock?",
@@ -250,7 +295,8 @@
       "A storage service"
     ],
     "answer": "A service for building and scaling generative AI applications with foundation models",
-    "explanation": "Amazon Bedrock is a fully managed service that makes foundation models from leading AI companies available through an API, allowing you to build and scale generative AI applications."
+    "explanation": "Amazon Bedrock is a fully managed service that makes foundation models from leading AI companies available through an API, allowing you to build and scale generative AI applications.",
+    "correctCount": 1
   },
   {
     "question": "Which AWS service helps monitor ML models in production for data drift?",
@@ -260,8 +306,12 @@
       "AWS X-Ray",
       "Amazon Inspector"
     ],
-    "answer": "Amazon SageMaker Model Monitor",
-    "explanation": "Amazon SageMaker Model Monitor continuously monitors the quality of ML models in production and alerts you when there are deviations in model quality, such as data drift."
+    "answer": [
+      "Amazon SageMaker Model Monitor",
+      "Amazon CloudWatch"
+    ],
+    "explanation": "Amazon SageMaker Model Monitor continuously monitors the quality of ML models in production and alerts you when there are deviations in model quality, such as data drift.",
+    "correctCount": 2
   },
   {
     "question": "What is Amazon Lookout for Metrics?",
@@ -272,7 +322,8 @@
       "A log analysis service"
     ],
     "answer": "An ML service that automatically detects and diagnoses anomalies in business metrics",
-    "explanation": "Amazon Lookout for Metrics uses machine learning to automatically detect and diagnose anomalies in business and operational metrics."
+    "explanation": "Amazon Lookout for Metrics uses machine learning to automatically detect and diagnose anomalies in business and operational metrics.",
+    "correctCount": 1
   },
   {
     "question": "Which type of bias in AI refers to bias in the training data?",
@@ -293,8 +344,12 @@
       "A quantum computing service",
       "A quality assurance tool"
     ],
-    "answer": "A generative AI-powered assistant for business",
-    "explanation": "Amazon Q is a generative AI-powered assistant designed for work that can be tailored to your business, helping employees be more creative, data-driven, and efficient."
+    "answer": [
+      "A generative AI-powered assistant for business",
+      "A queuing service"
+    ],
+    "explanation": "Amazon Q is a generative AI-powered assistant designed for work that can be tailored to your business, helping employees be more creative, data-driven, and efficient.",
+    "correctCount": 2
   },
   {
     "question": "Which AWS service provides optical character recognition (OCR)?",
@@ -304,8 +359,12 @@
       "Amazon Transcribe",
       "Amazon Polly"
     ],
-    "answer": "Amazon Textract",
-    "explanation": "Amazon Textract uses OCR technology and machine learning to automatically extract printed text, handwriting, and data from scanned documents."
+    "answer": [
+      "Amazon Textract",
+      "Amazon Comprehend"
+    ],
+    "explanation": "Amazon Textract uses OCR technology and machine learning to automatically extract printed text, handwriting, and data from scanned documents.",
+    "correctCount": 2
   },
   {
     "question": "What is the purpose of Amazon SageMaker Ground Truth?",
@@ -315,8 +374,12 @@
       "Deploying models to production",
       "Monitoring model performance"
     ],
-    "answer": "Labeling training data for machine learning",
-    "explanation": "Amazon SageMaker Ground Truth helps you build highly accurate training datasets for machine learning by providing automated and human labeling capabilities."
+    "answer": [
+      "Labeling training data for machine learning",
+      "Testing ML models"
+    ],
+    "explanation": "Amazon SageMaker Ground Truth helps you build highly accurate training datasets for machine learning by providing automated and human labeling capabilities.",
+    "correctCount": 2
   },
   {
     "question": "Which AWS service can detect personally identifiable information (PII) in documents?",
@@ -338,7 +401,8 @@
       "A log aggregation service"
     ],
     "answer": "An end-to-end system for equipment monitoring that detects abnormal conditions",
-    "explanation": "Amazon Monitron is an end-to-end system that uses machine learning to detect abnormal conditions in industrial equipment, enabling predictive maintenance."
+    "explanation": "Amazon Monitron is an end-to-end system that uses machine learning to detect abnormal conditions in industrial equipment, enabling predictive maintenance.",
+    "correctCount": 1
   },
   {
     "question": "Which feature of Amazon SageMaker helps explain model predictions?",
@@ -360,7 +424,8 @@
       "A telemedicine platform"
     ],
     "answer": "A HIPAA-eligible service for storing and analyzing health data using ML",
-    "explanation": "Amazon HealthLake is a HIPAA-eligible service that helps healthcare providers store, transform, and analyze health data in the AWS Cloud using machine learning."
+    "explanation": "Amazon HealthLake is a HIPAA-eligible service that helps healthcare providers store, transform, and analyze health data in the AWS Cloud using machine learning.",
+    "correctCount": 1
   },
   {
     "question": "Which AWS service enables you to add visual search capabilities to applications?",
@@ -370,8 +435,12 @@
       "Amazon Kendra",
       "Amazon CloudSearch"
     ],
-    "answer": "Amazon Rekognition Custom Labels",
-    "explanation": "Amazon Rekognition Custom Labels allows you to build custom computer vision models for your specific use cases, including visual search capabilities."
+    "answer": [
+      "Amazon Rekognition Custom Labels",
+      "Amazon Elasticsearch"
+    ],
+    "explanation": "Amazon Rekognition Custom Labels allows you to build custom computer vision models for your specific use cases, including visual search capabilities.",
+    "correctCount": 2
   },
   {
     "question": "What is Amazon Lex primarily built upon?",
@@ -404,7 +473,8 @@
       "Automatically monitoring models"
     ],
     "answer": "Automatically building, training, and tuning ML models",
-    "explanation": "Amazon SageMaker Autopilot automatically builds, trains, and tunes the best machine learning models based on your data while allowing you to maintain full control and visibility."
+    "explanation": "Amazon SageMaker Autopilot automatically builds, trains, and tunes the best machine learning models based on your data while allowing you to maintain full control and visibility.",
+    "correctCount": 1
   },
   {
     "question": "Which AWS service can help detect anomalies in application logs?",
@@ -414,8 +484,12 @@
       "AWS X-Ray",
       "Amazon Inspector"
     ],
-    "answer": "Amazon DevOps Guru",
-    "explanation": "Amazon DevOps Guru is an ML-powered service that makes it easy to improve an application's operational performance and availability by automatically detecting and diagnosing anomalies."
+    "answer": [
+      "Amazon DevOps Guru",
+      "Amazon CloudWatch Logs Insights"
+    ],
+    "explanation": "Amazon DevOps Guru is an ML-powered service that makes it easy to improve an application's operational performance and availability by automatically detecting and diagnosing anomalies.",
+    "correctCount": 2
   },
   {
     "question": "What is Amazon Lookout for Vision used for?",
@@ -425,8 +499,12 @@
       "Video conferencing",
       "Image editing"
     ],
-    "answer": "Detecting defects in manufactured products using computer vision",
-    "explanation": "Amazon Lookout for Vision is a machine learning service that spots defects and anomalies in visual representations using computer vision."
+    "answer": [
+      "Detecting defects in manufactured products using computer vision",
+      "Eye tracking"
+    ],
+    "explanation": "Amazon Lookout for Vision is a machine learning service that spots defects and anomalies in visual representations using computer vision.",
+    "correctCount": 2
   },
   {
     "question": "Which service would you use to add chatbot functionality to a mobile app?",
@@ -436,8 +514,12 @@
       "Amazon Comprehend",
       "Amazon Translate"
     ],
-    "answer": "Amazon Lex",
-    "explanation": "Amazon Lex provides the conversational AI capabilities needed to build sophisticated chatbots with natural language understanding."
+    "answer": [
+      "Amazon Lex",
+      "Amazon Polly"
+    ],
+    "explanation": "Amazon Lex provides the conversational AI capabilities needed to build sophisticated chatbots with natural language understanding.",
+    "correctCount": 2
   },
   {
     "question": "What is Amazon Fraud Detector primarily designed to detect?",
@@ -447,8 +529,12 @@
       "Code vulnerabilities",
       "Data breaches"
     ],
-    "answer": "Fraudulent online activities and transactions",
-    "explanation": "Amazon Fraud Detector is specifically designed to identify potentially fraudulent online activities such as online payment fraud and fake account creation."
+    "answer": [
+      "Fraudulent online activities and transactions",
+      "Network intrusions"
+    ],
+    "explanation": "Amazon Fraud Detector is specifically designed to identify potentially fraudulent online activities such as online payment fraud and fake account creation.",
+    "correctCount": 2
   },
   {
     "question": "Which feature of Amazon SageMaker helps optimize models for edge devices?",
@@ -470,7 +556,8 @@
       "Network acceleration"
     ],
     "answer": "High-performance ML inference",
-    "explanation": "AWS Inferentia is a custom machine learning chip designed by AWS to provide high-performance and cost-effective inference in the cloud."
+    "explanation": "AWS Inferentia is a custom machine learning chip designed by AWS to provide high-performance and cost-effective inference in the cloud.",
+    "correctCount": 1
   },
   {
     "question": "Which AWS service can perform real-time language translation for chat applications?",
@@ -481,7 +568,8 @@
       "Amazon Polly"
     ],
     "answer": "Amazon Translate",
-    "explanation": "Amazon Translate can provide real-time language translation, making it ideal for multilingual chat applications and real-time content translation."
+    "explanation": "Amazon Translate can provide real-time language translation, making it ideal for multilingual chat applications and real-time content translation.",
+    "correctCount": 1
   },
   {
     "question": "What is Amazon Personalize primarily used for?",
@@ -492,7 +580,8 @@
       "Personalizing security policies"
     ],
     "answer": "Creating personalized product recommendations and search results",
-    "explanation": "Amazon Personalize uses machine learning to create individualized recommendations for customers, personalize search results, and customize marketing messages."
+    "explanation": "Amazon Personalize uses machine learning to create individualized recommendations for customers, personalize search results, and customize marketing messages.",
+    "correctCount": 1
   },
   {
     "question": "Which type of AI model can generate new content like text, images, or code?",
@@ -503,7 +592,8 @@
       "Clustering models"
     ],
     "answer": "Generative AI models",
-    "explanation": "Generative AI models are designed to create new content, including text, images, audio, code, and more, based on patterns learned from training data."
+    "explanation": "Generative AI models are designed to create new content, including text, images, audio, code, and more, based on patterns learned from training data.",
+    "correctCount": 1
   },
   {
     "question": "What is AWS Panorama?",
@@ -514,7 +604,8 @@
       "A video streaming service"
     ],
     "answer": "A service for bringing computer vision to on-premises cameras",
-    "explanation": "AWS Panorama is a machine learning appliance and software development kit (SDK) that allows organizations to bring computer vision to on-premises cameras."
+    "explanation": "AWS Panorama is a machine learning appliance and software development kit (SDK) that allows organizations to bring computer vision to on-premises cameras.",
+    "correctCount": 1
   },
   {
     "question": "Which AWS service helps you build, deploy, and manage conversational IVR (Interactive Voice Response) systems?",
@@ -525,7 +616,8 @@
       "Amazon Chime"
     ],
     "answer": "Amazon Connect",
-    "explanation": "Amazon Connect, combined with Amazon Lex, can be used to build intelligent IVR systems with natural language understanding for customer service."
+    "explanation": "Amazon Connect, combined with Amazon Lex, can be used to build intelligent IVR systems with natural language understanding for customer service.",
+    "correctCount": 1
   },
   {
     "question": "What is responsible AI?",
@@ -536,7 +628,8 @@
       "AI that requires human approval for every decision"
     ],
     "answer": "AI developed and used in an ethical, transparent, and accountable manner",
-    "explanation": "Responsible AI refers to developing and deploying AI systems in a way that is ethical, transparent, accountable, and fair, with consideration for potential societal impacts."
+    "explanation": "Responsible AI refers to developing and deploying AI systems in a way that is ethical, transparent, accountable, and fair, with consideration for potential societal impacts.",
+    "correctCount": 1
   },
   {
     "question": "What is SageMaker Ground Truth?",
@@ -547,7 +640,8 @@
       "A monitoring service"
     ],
     "answer": "A data labeling service",
-    "explanation": "Ground Truth helps you build highly accurate training datasets using machine learning."
+    "explanation": "Ground Truth helps you build highly accurate training datasets using machine learning.",
+    "correctCount": 1
   },
   {
     "question": "What is SageMaker Autopilot?",
@@ -558,7 +652,8 @@
       "Model hosting"
     ],
     "answer": "Automated machine learning",
-    "explanation": "Autopilot automatically builds, trains, and tunes the best ML models based on your data."
+    "explanation": "Autopilot automatically builds, trains, and tunes the best ML models based on your data.",
+    "correctCount": 1
   },
   {
     "question": "What format does SageMaker use for training data?",
@@ -568,8 +663,12 @@
       "Only JSON",
       "Only binary"
     ],
-    "answer": "CSV, JSON, Parquet, RecordIO",
-    "explanation": "SageMaker supports multiple formats including CSV, JSON, Parquet, and optimized RecordIO."
+    "answer": [
+      "CSV, JSON, Parquet, RecordIO",
+      "Only CSV"
+    ],
+    "explanation": "SageMaker supports multiple formats including CSV, JSON, Parquet, and optimized RecordIO.",
+    "correctCount": 2
   },
   {
     "question": "What is a SageMaker endpoint?",
@@ -579,8 +678,12 @@
       "A training instance",
       "A notebook"
     ],
-    "answer": "A hosted model for real-time inference",
-    "explanation": "SageMaker endpoints host trained models for real-time predictions via HTTPS."
+    "answer": [
+      "A hosted model for real-time inference",
+      "A data storage location"
+    ],
+    "explanation": "SageMaker endpoints host trained models for real-time predictions via HTTPS.",
+    "correctCount": 2
   },
   {
     "question": "What is SageMaker Batch Transform?",
@@ -590,8 +693,12 @@
       "Data cleaning",
       "Model training"
     ],
-    "answer": "Offline batch inference",
-    "explanation": "Batch Transform gets predictions for entire datasets without maintaining a persistent endpoint."
+    "answer": [
+      "Offline batch inference",
+      "Real-time inference"
+    ],
+    "explanation": "Batch Transform gets predictions for entire datasets without maintaining a persistent endpoint.",
+    "correctCount": 2
   },
   {
     "question": "What can Amazon Rekognition detect in images?",
@@ -601,8 +708,12 @@
       "Only text",
       "Only colors"
     ],
-    "answer": "Objects, scenes, faces, text, activities",
-    "explanation": "Rekognition provides comprehensive image analysis including objects, faces, text, and more."
+    "answer": [
+      "Objects, scenes, faces, text, activities",
+      "Only faces"
+    ],
+    "explanation": "Rekognition provides comprehensive image analysis including objects, faces, text, and more.",
+    "correctCount": 2
   },
   {
     "question": "What is Rekognition Custom Labels?",
@@ -613,7 +724,8 @@
       "Video analysis"
     ],
     "answer": "Training custom image classification models",
-    "explanation": "Custom Labels lets you build custom computer vision models specific to your business needs."
+    "explanation": "Custom Labels lets you build custom computer vision models specific to your business needs.",
+    "correctCount": 1
   },
   {
     "question": "Can Rekognition detect PPE (Personal Protective Equipment)?",
@@ -624,7 +736,8 @@
       "Only with custom training"
     ],
     "answer": "Yes, it has specific PPE detection",
-    "explanation": "Rekognition can detect whether people are wearing required PPE like face covers, hand covers, and head covers."
+    "explanation": "Rekognition can detect whether people are wearing required PPE like face covers, hand covers, and head covers.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does SageMaker provide?",
@@ -637,7 +750,8 @@
       "ML platform"
     ],
     "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Rekognition provide?",
@@ -649,7 +763,283 @@
       "ML platform"
     ],
     "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
     "explanation": "This service provides the specified AI capability in AWS."
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "ML platform",
+      "Computer vision"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "NLP",
+      "Text-to-speech"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "ML platform",
+      "Computer vision"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "NLP",
+      "Text-to-speech"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": [
+      "Text-to-speech",
+      "Chatbots"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "ML platform",
+      "Computer vision"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": [
+      "Chatbots",
+      "Configure settings manually"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "ML platform",
+      "Computer vision"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Comprehend provide?",
@@ -682,7 +1072,8 @@
       "Contact Azure support"
     ],
     "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does SageMaker provide?",
@@ -695,7 +1086,8 @@
       "ML platform"
     ],
     "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Rekognition provide?",
@@ -707,7 +1099,8 @@
       "ML platform"
     ],
     "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Comprehend provide?",
@@ -718,7 +1111,146 @@
       "ML platform"
     ],
     "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": [
+      "Text-to-speech",
+      "Chatbots"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "ML platform",
+      "Computer vision"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "NLP",
+      "Text-to-speech"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "NLP",
+      "Text-to-speech"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
   },
   {
     "question": "What AI capability does Polly provide?",
@@ -730,6 +1262,407 @@
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "ML platform",
+      "Computer vision",
+      "NLP"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 3
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "NLP",
+      "Text-to-speech"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "Computer vision",
+      "NLP"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "NLP",
+      "Text-to-speech"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS."
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "ML platform",
+      "Computer vision"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "Computer vision",
+      "NLP"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS."
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "ML platform",
+      "Computer vision"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": [
+      "Text-to-speech",
+      "Chatbots"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
   },
   {
     "question": "What AI capability does Lex provide?",
@@ -753,7 +1686,8 @@
       "ML platform"
     ],
     "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Rekognition provide?",
@@ -765,7 +1699,8 @@
       "ML platform"
     ],
     "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Comprehend provide?",
@@ -775,8 +1710,12 @@
       "Chatbots",
       "ML platform"
     ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "answer": [
+      "NLP",
+      "Text-to-speech"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
   },
   {
     "question": "What AI capability does Polly provide?",
@@ -787,7 +1726,278 @@
       "Configure settings manually"
     ],
     "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "Computer vision",
+      "NLP"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": [
+      "Text-to-speech",
+      "Chatbots"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "ML platform",
+      "Computer vision"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "NLP",
+      "Text-to-speech"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": [
+      "Chatbots",
+      "Configure settings manually"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "Computer vision",
+      "NLP"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Lex provide?",
@@ -811,7 +2021,80 @@
       "ML platform"
     ],
     "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "Computer vision",
+      "NLP"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "NLP",
+      "Text-to-speech"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": [
+      "Chatbots",
+      "Configure settings manually"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Rekognition provide?",
@@ -823,7 +2106,8 @@
       "ML platform"
     ],
     "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Comprehend provide?",
@@ -834,7 +2118,8 @@
       "ML platform"
     ],
     "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Polly provide?",
@@ -846,6 +2131,612 @@
     ],
     "answer": "Text-to-speech",
     "explanation": "This service provides the specified AI capability in AWS."
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": [
+      "Chatbots",
+      "Configure settings manually"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "ML platform",
+      "Computer vision"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "Computer vision",
+      "NLP"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "ML platform",
+      "Computer vision"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "NLP",
+      "Text-to-speech"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": [
+      "Text-to-speech",
+      "Chatbots"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": [
+      "Text-to-speech",
+      "Chatbots"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": [
+      "Chatbots",
+      "Configure settings manually"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": [
+      "Text-to-speech",
+      "Chatbots"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "Computer vision",
+      "NLP"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "NLP",
+      "Text-to-speech"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": [
+      "Text-to-speech",
+      "Chatbots"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "ML platform",
+      "Computer vision"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Lex provide?",
@@ -868,8 +2759,12 @@
       "Chatbots",
       "ML platform"
     ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "answer": [
+      "ML platform",
+      "Computer vision"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
   },
   {
     "question": "What AI capability does Rekognition provide?",
@@ -880,8 +2775,81 @@
       "Chatbots",
       "ML platform"
     ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "answer": [
+      "Computer vision",
+      "NLP"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "NLP",
+      "Text-to-speech"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "Computer vision",
+      "NLP"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
   },
   {
     "question": "What AI capability does Comprehend provide?",
@@ -903,7 +2871,754 @@
       "Configure settings manually"
     ],
     "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "Computer vision",
+      "NLP"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "ML platform",
+      "Computer vision"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": [
+      "Text-to-speech",
+      "Chatbots"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "ML platform",
+      "Computer vision"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": [
+      "Text-to-speech",
+      "Chatbots"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "NLP",
+      "Text-to-speech"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": [
+      "Chatbots",
+      "Configure settings manually"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "ML platform",
+      "Computer vision"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "Computer vision",
+      "NLP"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": [
+      "Chatbots",
+      "Configure settings manually"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
     "explanation": "This service provides the specified AI capability in AWS."
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": [
+      "Chatbots",
+      "Configure settings manually"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS."
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": [
+      "Text-to-speech",
+      "Chatbots"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": [
+      "Chatbots",
+      "Configure settings manually"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "ML platform",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "ML platform",
+      "Computer vision",
+      "NLP"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 3
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS."
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "ML platform",
+      "Computer vision"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "NLP",
+      "Text-to-speech"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": "Chatbots",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "ML platform",
+      "Computer vision",
+      "NLP"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 3
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "Computer vision",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "NLP",
+      "Text-to-speech"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Lex provide?",
@@ -926,8 +3641,12 @@
       "Chatbots",
       "ML platform"
     ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "answer": [
+      "ML platform",
+      "Computer vision"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
   },
   {
     "question": "What AI capability does Rekognition provide?",
@@ -939,7 +3658,8 @@
       "ML platform"
     ],
     "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Comprehend provide?",
@@ -950,7 +3670,8 @@
       "ML platform"
     ],
     "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Polly provide?",
@@ -961,7 +3682,81 @@
       "Configure settings manually"
     ],
     "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Lex provide?",
+    "options": [
+      "Chatbots",
+      "Configure settings manually",
+      "Use the Azure portal",
+      "Contact Azure support"
+    ],
+    "answer": [
+      "Chatbots",
+      "Configure settings manually"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does SageMaker provide?",
+    "options": [
+      "ML platform",
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "ML platform",
+      "Computer vision",
+      "NLP"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 3
+  },
+  {
+    "question": "What AI capability does Rekognition provide?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": [
+      "Computer vision",
+      "NLP"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
+  },
+  {
+    "question": "What AI capability does Comprehend provide?",
+    "options": [
+      "NLP",
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform"
+    ],
+    "answer": "NLP",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
+  },
+  {
+    "question": "What AI capability does Polly provide?",
+    "options": [
+      "Text-to-speech",
+      "Chatbots",
+      "ML platform",
+      "Configure settings manually"
+    ],
+    "answer": "Text-to-speech",
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Lex provide?",
@@ -984,8 +3779,12 @@
       "Chatbots",
       "ML platform"
     ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "answer": [
+      "ML platform",
+      "Computer vision"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
   },
   {
     "question": "What AI capability does Rekognition provide?",
@@ -996,8 +3795,12 @@
       "Chatbots",
       "ML platform"
     ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "answer": [
+      "Computer vision",
+      "NLP"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
   },
   {
     "question": "What AI capability does Comprehend provide?",
@@ -1019,7 +3822,8 @@
       "Configure settings manually"
     ],
     "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Lex provide?",
@@ -1030,7 +3834,8 @@
       "Contact Azure support"
     ],
     "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does SageMaker provide?",
@@ -1043,7 +3848,8 @@
       "ML platform"
     ],
     "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Rekognition provide?",
@@ -1055,7 +3861,8 @@
       "ML platform"
     ],
     "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Comprehend provide?",
@@ -1076,8 +3883,12 @@
       "ML platform",
       "Configure settings manually"
     ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "answer": [
+      "Text-to-speech",
+      "Chatbots"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
   },
   {
     "question": "What AI capability does Lex provide?",
@@ -1088,7 +3899,8 @@
       "Contact Azure support"
     ],
     "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does SageMaker provide?",
@@ -1101,7 +3913,8 @@
       "ML platform"
     ],
     "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Rekognition provide?",
@@ -1112,8 +3925,13 @@
       "Chatbots",
       "ML platform"
     ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "answer": [
+      "Computer vision",
+      "NLP",
+      "Text-to-speech"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 3
   },
   {
     "question": "What AI capability does Comprehend provide?",
@@ -1124,7 +3942,8 @@
       "ML platform"
     ],
     "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Polly provide?",
@@ -1135,7 +3954,8 @@
       "Configure settings manually"
     ],
     "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Lex provide?",
@@ -1146,7 +3966,8 @@
       "Contact Azure support"
     ],
     "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does SageMaker provide?",
@@ -1159,7 +3980,8 @@
       "ML platform"
     ],
     "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   },
   {
     "question": "What AI capability does Rekognition provide?",
@@ -1170,8 +3992,12 @@
       "Chatbots",
       "ML platform"
     ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "answer": [
+      "Computer vision",
+      "NLP"
+    ],
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 2
   },
   {
     "question": "What AI capability does Comprehend provide?",
@@ -1182,2268 +4008,7 @@
       "ML platform"
     ],
     "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Polly provide?",
-    "options": [
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform",
-      "Configure settings manually"
-    ],
-    "answer": "Text-to-speech",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Lex provide?",
-    "options": [
-      "Chatbots",
-      "Configure settings manually",
-      "Use the Azure portal",
-      "Contact Azure support"
-    ],
-    "answer": "Chatbots",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does SageMaker provide?",
-    "options": [
-      "ML platform",
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "ML platform",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Rekognition provide?",
-    "options": [
-      "Computer vision",
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "Computer vision",
-    "explanation": "This service provides the specified AI capability in AWS."
-  },
-  {
-    "question": "What AI capability does Comprehend provide?",
-    "options": [
-      "NLP",
-      "Text-to-speech",
-      "Chatbots",
-      "ML platform"
-    ],
-    "answer": "NLP",
-    "explanation": "This service provides the specified AI capability in AWS."
+    "explanation": "This service provides the specified AI capability in AWS.",
+    "correctCount": 1
   }
 ]

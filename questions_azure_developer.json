@@ -8,7 +8,8 @@
       "Azure Kubernetes Service"
     ],
     "answer": "Azure App Service",
-    "explanation": "Azure App Service is a fully managed platform for building, deploying, and scaling web apps. It supports .NET, Java, Node.js, Python, and PHP."
+    "explanation": "Azure App Service is a fully managed platform for building, deploying, and scaling web apps. It supports .NET, Java, Node.js, Python, and PHP.",
+    "correctCount": 1
   },
   {
     "question": "What is the purpose of Azure Functions?",
@@ -18,8 +19,12 @@
       "Store data in databases",
       "Configure network settings"
     ],
-    "answer": "Run serverless code in response to events",
-    "explanation": "Azure Functions is a serverless compute service that lets you run event-triggered code without having to explicitly provision or manage infrastructure."
+    "answer": [
+      "Run serverless code in response to events",
+      "Manage virtual machines"
+    ],
+    "explanation": "Azure Functions is a serverless compute service that lets you run event-triggered code without having to explicitly provision or manage infrastructure.",
+    "correctCount": 2
   },
   {
     "question": "Which authentication protocol does Azure Active Directory primarily use?",
@@ -30,7 +35,8 @@
       "LDAP"
     ],
     "answer": "OAuth 2.0 and OpenID Connect",
-    "explanation": "Azure AD uses OAuth 2.0 for authorization and OpenID Connect for authentication, providing modern identity and access management."
+    "explanation": "Azure AD uses OAuth 2.0 for authorization and OpenID Connect for authentication, providing modern identity and access management.",
+    "correctCount": 1
   },
   {
     "question": "What is Azure Cosmos DB?",
@@ -41,7 +47,8 @@
       "A caching service"
     ],
     "answer": "A globally distributed, multi-model database service",
-    "explanation": "Azure Cosmos DB is a globally distributed, multi-model database service that supports document, key-value, graph, and column-family data models."
+    "explanation": "Azure Cosmos DB is a globally distributed, multi-model database service that supports document, key-value, graph, and column-family data models.",
+    "correctCount": 1
   },
   {
     "question": "Which Azure service provides message queuing for application integration?",
@@ -51,8 +58,12 @@
       "Azure Event Hubs",
       "Azure Logic Apps"
     ],
-    "answer": "Azure Service Bus",
-    "explanation": "Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics for application integration."
+    "answer": [
+      "Azure Service Bus",
+      "Azure Event Grid"
+    ],
+    "explanation": "Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics for application integration.",
+    "correctCount": 2
   },
   {
     "question": "What is Azure Key Vault used for?",
@@ -63,7 +74,8 @@
       "Monitoring applications"
     ],
     "answer": "Safeguarding cryptographic keys and secrets",
-    "explanation": "Azure Key Vault helps safeguard cryptographic keys, certificates, and secrets used by cloud applications and services."
+    "explanation": "Azure Key Vault helps safeguard cryptographic keys, certificates, and secrets used by cloud applications and services.",
+    "correctCount": 1
   },
   {
     "question": "Which Azure service should you use for hosting Docker containers?",
@@ -73,8 +85,12 @@
       "Azure App Service only",
       "Azure Batch"
     ],
-    "answer": "Azure Container Instances or Azure Kubernetes Service",
-    "explanation": "Azure Container Instances provides the fastest way to run containers, while AKS provides orchestration for production container workloads."
+    "answer": [
+      "Azure Container Instances or Azure Kubernetes Service",
+      "Azure Virtual Machines only"
+    ],
+    "explanation": "Azure Container Instances provides the fastest way to run containers, while AKS provides orchestration for production container workloads.",
+    "correctCount": 2
   },
   {
     "question": "What is Azure Application Insights?",
@@ -84,8 +100,12 @@
       "A networking service",
       "A storage service"
     ],
-    "answer": "An application performance monitoring service",
-    "explanation": "Azure Application Insights is an application performance management (APM) service that helps you monitor live applications and detect performance anomalies."
+    "answer": [
+      "An application performance monitoring service",
+      "A database service"
+    ],
+    "explanation": "Azure Application Insights is an application performance management (APM) service that helps you monitor live applications and detect performance anomalies.",
+    "correctCount": 2
   },
   {
     "question": "Which Azure storage type is optimized for storing massive amounts of unstructured data?",
@@ -96,7 +116,8 @@
       "Azure Disk Storage"
     ],
     "answer": "Azure Blob Storage",
-    "explanation": "Azure Blob Storage is optimized for storing massive amounts of unstructured data such as text, binary data, images, and videos."
+    "explanation": "Azure Blob Storage is optimized for storing massive amounts of unstructured data such as text, binary data, images, and videos.",
+    "correctCount": 1
   },
   {
     "question": "What is the maximum execution time for an Azure Function in the Consumption plan?",
@@ -107,7 +128,8 @@
       "Unlimited"
     ],
     "answer": "10 minutes",
-    "explanation": "In the Consumption plan, Azure Functions have a default timeout of 5 minutes and a maximum of 10 minutes."
+    "explanation": "In the Consumption plan, Azure Functions have a default timeout of 5 minutes and a maximum of 10 minutes.",
+    "correctCount": 1
   },
   {
     "question": "Which Azure service provides a fully managed Redis cache?",
@@ -117,8 +139,12 @@
       "Azure Table Storage",
       "Azure Cosmos DB"
     ],
-    "answer": "Azure Cache for Redis",
-    "explanation": "Azure Cache for Redis provides a fully managed, in-memory cache based on the open-source Redis software."
+    "answer": [
+      "Azure Cache for Redis",
+      "Azure SQL Database"
+    ],
+    "explanation": "Azure Cache for Redis provides a fully managed, in-memory cache based on the open-source Redis software.",
+    "correctCount": 2
   },
   {
     "question": "What is Azure DevOps used for?",
@@ -129,7 +155,8 @@
       "Only project management"
     ],
     "answer": "Complete DevOps lifecycle including CI/CD, repos, boards, and testing",
-    "explanation": "Azure DevOps provides integrated services for the complete DevOps lifecycle including Azure Repos, Pipelines, Boards, Test Plans, and Artifacts."
+    "explanation": "Azure DevOps provides integrated services for the complete DevOps lifecycle including Azure Repos, Pipelines, Boards, Test Plans, and Artifacts.",
+    "correctCount": 1
   },
   {
     "question": "Which Azure service enables you to run queries using Transact-SQL?",
@@ -139,8 +166,12 @@
       "Azure Table Storage",
       "Azure Blob Storage"
     ],
-    "answer": "Azure SQL Database",
-    "explanation": "Azure SQL Database is a fully managed relational database that supports Transact-SQL (T-SQL) queries."
+    "answer": [
+      "Azure SQL Database",
+      "Azure Cosmos DB"
+    ],
+    "explanation": "Azure SQL Database is a fully managed relational database that supports Transact-SQL (T-SQL) queries.",
+    "correctCount": 2
   },
   {
     "question": "What is Azure Logic Apps?",
@@ -150,8 +181,12 @@
       "A virtual machine service",
       "A storage service"
     ],
-    "answer": "A workflow automation service for integrating apps and data",
-    "explanation": "Azure Logic Apps is a cloud service that helps you schedule, automate, and orchestrate tasks, business processes, and workflows."
+    "answer": [
+      "A workflow automation service for integrating apps and data",
+      "A database service"
+    ],
+    "explanation": "Azure Logic Apps is a cloud service that helps you schedule, automate, and orchestrate tasks, business processes, and workflows.",
+    "correctCount": 2
   },
   {
     "question": "Which Azure service provides a managed identity for Azure resources?",
@@ -162,7 +197,8 @@
       "Azure Security Center"
     ],
     "answer": "Azure Managed Identity",
-    "explanation": "Azure Managed Identity provides Azure services with an automatically managed identity in Azure AD for authenticating to Azure resources."
+    "explanation": "Azure Managed Identity provides Azure services with an automatically managed identity in Azure AD for authenticating to Azure resources.",
+    "correctCount": 1
   },
   {
     "question": "What is Azure API Management?",
@@ -173,7 +209,8 @@
       "A monitoring service"
     ],
     "answer": "A service to create, publish, and manage APIs",
-    "explanation": "Azure API Management is a turnkey solution for publishing APIs to external and internal customers, with features like rate limiting, authentication, and analytics."
+    "explanation": "Azure API Management is a turnkey solution for publishing APIs to external and internal customers, with features like rate limiting, authentication, and analytics.",
+    "correctCount": 1
   },
   {
     "question": "Which Azure service provides event streaming for big data?",
@@ -184,7 +221,8 @@
       "Azure Logic Apps"
     ],
     "answer": "Azure Event Hubs",
-    "explanation": "Azure Event Hubs is a big data streaming platform and event ingestion service capable of receiving and processing millions of events per second."
+    "explanation": "Azure Event Hubs is a big data streaming platform and event ingestion service capable of receiving and processing millions of events per second.",
+    "correctCount": 1
   },
   {
     "question": "What is Azure Monitor used for?",
@@ -194,8 +232,12 @@
       "Storing data",
       "Deploying applications"
     ],
-    "answer": "Collecting, analyzing, and acting on telemetry from cloud and on-premises environments",
-    "explanation": "Azure Monitor helps you maximize the availability and performance of your applications by delivering a comprehensive solution for collecting, analyzing, and acting on telemetry."
+    "answer": [
+      "Collecting, analyzing, and acting on telemetry from cloud and on-premises environments",
+      "Managing virtual machines"
+    ],
+    "explanation": "Azure Monitor helps you maximize the availability and performance of your applications by delivering a comprehensive solution for collecting, analyzing, and acting on telemetry.",
+    "correctCount": 2
   },
   {
     "question": "Which deployment slots feature in Azure App Service allows zero-downtime deployments?",
@@ -206,7 +248,8 @@
       "Canary deployment"
     ],
     "answer": "Staging slots with swap",
-    "explanation": "Azure App Service deployment slots allow you to deploy to a staging environment and then swap it with production, enabling zero-downtime deployments."
+    "explanation": "Azure App Service deployment slots allow you to deploy to a staging environment and then swap it with production, enabling zero-downtime deployments.",
+    "correctCount": 1
   },
   {
     "question": "What is Azure Durable Functions?",
@@ -217,7 +260,8 @@
       "Functions with guaranteed delivery"
     ],
     "answer": "An extension for writing stateful workflows in serverless environments",
-    "explanation": "Azure Durable Functions is an extension of Azure Functions that lets you write stateful functions in a serverless compute environment using orchestrator functions."
+    "explanation": "Azure Durable Functions is an extension of Azure Functions that lets you write stateful functions in a serverless compute environment using orchestrator functions.",
+    "correctCount": 1
   },
   {
     "question": "Which Azure service would you use for asynchronous messaging between applications?",
@@ -227,8 +271,12 @@
       "Azure Blob Storage",
       "Azure Table Storage"
     ],
-    "answer": "Azure Storage Queue or Azure Service Bus",
-    "explanation": "Both Azure Storage Queue and Azure Service Bus provide asynchronous messaging capabilities, with Service Bus offering more advanced features like transactions and duplicate detection."
+    "answer": [
+      "Azure Storage Queue or Azure Service Bus",
+      "Azure SQL Database"
+    ],
+    "explanation": "Both Azure Storage Queue and Azure Service Bus provide asynchronous messaging capabilities, with Service Bus offering more advanced features like transactions and duplicate detection.",
+    "correctCount": 2
   },
   {
     "question": "What is Azure App Service?",
@@ -238,8 +286,12 @@
       "A database service",
       "A storage service"
     ],
-    "answer": "A PaaS for web apps",
-    "explanation": "Azure App Service is a fully managed platform for building, deploying, and scaling web apps."
+    "answer": [
+      "A PaaS for web apps",
+      "A VM service"
+    ],
+    "explanation": "Azure App Service is a fully managed platform for building, deploying, and scaling web apps.",
+    "correctCount": 2
   },
   {
     "question": "What deployment slots feature helps with zero-downtime deployments?",
@@ -250,7 +302,8 @@
       "Load balancer"
     ],
     "answer": "Swap with production",
-    "explanation": "Deployment slots allow you to deploy to staging and swap with production instantly."
+    "explanation": "Deployment slots allow you to deploy to staging and swap with production instantly.",
+    "correctCount": 1
   },
   {
     "question": "Which Azure service provides serverless compute?",
@@ -261,7 +314,8 @@
       "Azure Batch"
     ],
     "answer": "Azure Functions",
-    "explanation": "Azure Functions provides event-driven, serverless compute without managing infrastructure."
+    "explanation": "Azure Functions provides event-driven, serverless compute without managing infrastructure.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides web hosting?",
@@ -274,7 +328,8 @@
       "App Service"
     ],
     "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides serverless compute?",
@@ -286,7 +341,210 @@
       "App Service"
     ],
     "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": [
+      "Redis Cache",
+      "Service Bus"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions",
+      "AKS"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 3
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides container orchestration?",
@@ -298,6 +556,1625 @@
     ],
     "answer": "AKS",
     "explanation": "This Azure service is designed for this specific use case."
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": [
+      "Redis Cache",
+      "Service Bus"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": [
+      "Redis Cache",
+      "Service Bus"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "Functions",
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 3
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case."
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": [
+      "Service Bus",
+      "Azure Virtual Machines"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case."
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": [
+      "Service Bus",
+      "Azure Virtual Machines"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "Functions",
+      "AKS"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": [
+      "Redis Cache",
+      "Service Bus"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "Functions",
+      "AKS"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": [
+      "Service Bus",
+      "Azure Virtual Machines"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "Functions",
+      "AKS"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": [
+      "Redis Cache",
+      "Service Bus"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case."
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "Functions",
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 3
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case."
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case."
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case."
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": [
+      "Redis Cache",
+      "Service Bus"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": [
+      "Service Bus",
+      "Azure Virtual Machines"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions",
+      "AKS"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 3
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "Functions",
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 3
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case."
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case."
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides caching?",
@@ -331,8 +2208,12 @@
       "Service Bus",
       "App Service"
     ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
   },
   {
     "question": "What Azure service provides serverless compute?",
@@ -344,7 +2225,77 @@
       "App Service"
     ],
     "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides container orchestration?",
@@ -366,7 +2317,623 @@
       "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": [
+      "Service Bus",
+      "Azure Virtual Machines"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": [
+      "Redis Cache",
+      "Service Bus"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "Functions",
+      "AKS"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": [
+      "Service Bus",
+      "Azure Virtual Machines"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": [
+      "Redis Cache",
+      "Service Bus"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "Functions",
+      "AKS"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": [
+      "Service Bus",
+      "Azure Virtual Machines"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": [
+      "Redis Cache",
+      "Service Bus"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": [
+      "Service Bus",
+      "Azure Virtual Machines"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "Functions",
+      "AKS"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides message queuing?",
@@ -390,7 +2957,8 @@
       "App Service"
     ],
     "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides serverless compute?",
@@ -401,8 +2969,79 @@
       "Service Bus",
       "App Service"
     ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
+    "answer": [
+      "Functions",
+      "AKS"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "Functions",
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 3
   },
   {
     "question": "What Azure service provides container orchestration?",
@@ -423,8 +3062,414 @@
       "App Service",
       "Azure Virtual Machines"
     ],
+    "answer": [
+      "Redis Cache",
+      "Service Bus"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case."
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "Functions",
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 3
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "Functions",
+      "AKS"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
     "answer": "Redis Cache",
     "explanation": "This Azure service is designed for this specific use case."
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": [
+      "Service Bus",
+      "Azure Virtual Machines"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case."
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case."
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "Functions",
+      "AKS"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Redis Cache",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides message queuing?",
@@ -448,7 +3493,8 @@
       "App Service"
     ],
     "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides serverless compute?",
@@ -460,7 +3506,148 @@
       "App Service"
     ],
     "answer": "Functions",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": [
+      "Redis Cache",
+      "Service Bus"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": [
+      "Service Bus",
+      "Azure Virtual Machines"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "Functions",
+      "AKS"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
     "explanation": "This Azure service is designed for this specific use case."
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": [
+      "Redis Cache",
+      "Service Bus"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "Functions",
+      "AKS"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
   },
   {
     "question": "What Azure service provides container orchestration?",
@@ -482,7 +3669,8 @@
       "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides message queuing?",
@@ -493,7 +3681,8 @@
       "Azure Active Directory"
     ],
     "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides web hosting?",
@@ -506,7 +3695,156 @@
       "App Service"
     ],
     "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "Functions",
+      "AKS"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": [
+      "Redis Cache",
+      "Service Bus"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": "Service Bus",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "App Service",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides serverless compute?",
+    "options": [
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "Functions",
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 3
+  },
+  {
+    "question": "What Azure service provides container orchestration?",
+    "options": [
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": "AKS",
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
+  },
+  {
+    "question": "What Azure service provides caching?",
+    "options": [
+      "Redis Cache",
+      "Service Bus",
+      "App Service",
+      "Azure Virtual Machines"
+    ],
+    "answer": [
+      "Redis Cache",
+      "Service Bus"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides message queuing?",
+    "options": [
+      "Service Bus",
+      "Azure Virtual Machines",
+      "Azure Storage Account",
+      "Azure Active Directory"
+    ],
+    "answer": [
+      "Service Bus",
+      "Azure Virtual Machines"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
+  },
+  {
+    "question": "What Azure service provides web hosting?",
+    "options": [
+      "App Service",
+      "Functions",
+      "AKS",
+      "Redis Cache",
+      "Service Bus",
+      "App Service"
+    ],
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
   },
   {
     "question": "What Azure service provides serverless compute?",
@@ -518,7 +3856,8 @@
       "App Service"
     ],
     "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides container orchestration?",
@@ -540,7 +3879,8 @@
       "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides message queuing?",
@@ -551,7 +3891,8 @@
       "Azure Active Directory"
     ],
     "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides web hosting?",
@@ -563,8 +3904,12 @@
       "Service Bus",
       "App Service"
     ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
   },
   {
     "question": "What Azure service provides serverless compute?",
@@ -576,7 +3921,8 @@
       "App Service"
     ],
     "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides container orchestration?",
@@ -586,8 +3932,12 @@
       "Service Bus",
       "App Service"
     ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
+    "answer": [
+      "AKS",
+      "Redis Cache"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
   },
   {
     "question": "What Azure service provides caching?",
@@ -598,7 +3948,8 @@
       "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides message queuing?",
@@ -608,8 +3959,12 @@
       "Azure Storage Account",
       "Azure Active Directory"
     ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
+    "answer": [
+      "Service Bus",
+      "Azure Virtual Machines"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
   },
   {
     "question": "What Azure service provides web hosting?",
@@ -621,8 +3976,12 @@
       "Service Bus",
       "App Service"
     ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
+    "answer": [
+      "App Service",
+      "Functions"
+    ],
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 2
   },
   {
     "question": "What Azure service provides serverless compute?",
@@ -634,7 +3993,8 @@
       "App Service"
     ],
     "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides container orchestration?",
@@ -645,7 +4005,8 @@
       "App Service"
     ],
     "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides caching?",
@@ -656,7 +4017,8 @@
       "Azure Virtual Machines"
     ],
     "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides message queuing?",
@@ -667,7 +4029,8 @@
       "Azure Active Directory"
     ],
     "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   },
   {
     "question": "What Azure service provides web hosting?",
@@ -680,2790 +4043,7 @@
       "App Service"
     ],
     "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides serverless compute?",
-    "options": [
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "Functions",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides container orchestration?",
-    "options": [
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "AKS",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides caching?",
-    "options": [
-      "Redis Cache",
-      "Service Bus",
-      "App Service",
-      "Azure Virtual Machines"
-    ],
-    "answer": "Redis Cache",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides message queuing?",
-    "options": [
-      "Service Bus",
-      "Azure Virtual Machines",
-      "Azure Storage Account",
-      "Azure Active Directory"
-    ],
-    "answer": "Service Bus",
-    "explanation": "This Azure service is designed for this specific use case."
-  },
-  {
-    "question": "What Azure service provides web hosting?",
-    "options": [
-      "App Service",
-      "Functions",
-      "AKS",
-      "Redis Cache",
-      "Service Bus",
-      "App Service"
-    ],
-    "answer": "App Service",
-    "explanation": "This Azure service is designed for this specific use case."
+    "explanation": "This Azure service is designed for this specific use case.",
+    "correctCount": 1
   }
 ]

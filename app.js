@@ -174,8 +174,11 @@ function updateTimerDisplay() {
 function displayQuestion() {
     const question = currentExam[currentQuestionIndex];
     
-    // Update question text
-    document.getElementById('question-text').textContent = question.question;
+    // Update question text with selection instruction
+    const correctCount = question.correctCount || 1;
+    const instruction = correctCount === 1 ? "(Select 1)" : `(Select ${correctCount})`;
+    document.getElementById('question-text').innerHTML = 
+        `${question.question} <span class="selection-hint">${instruction}</span>`;
     
     // Update progress
     document.getElementById('current-question').textContent = currentQuestionIndex + 1;
