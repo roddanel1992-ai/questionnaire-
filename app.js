@@ -1,4 +1,5 @@
 // Application State
+let selectedCertification = null;
 let allQuestions = [];
 let currentExam = [];
 let currentQuestionIndex = 0;
@@ -7,8 +8,25 @@ let timerInterval = null;
 let timeRemaining = 720; // 12 minutes in seconds
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F'];
 
+// Certification configurations
+const CERTIFICATIONS = {
+    'developer': {
+        name: 'AWS Certified Developer - Associate',
+        code: 'DVA-C02',
+        questionsFile: 'questions_full.json',
+        description: 'DVA-C02 Certification Practice Exams'
+    },
+    'ai-practitioner': {
+        name: 'AWS Certified AI Practitioner',
+        code: 'AIF-C01',
+        questionsFile: 'questions_ai.json',
+        description: 'AIF-C01 Certification Practice Exams'
+    }
+};
+
 // DOM Elements
 const pages = {
+    certSelection: document.getElementById('cert-selection-page'),
     home: document.getElementById('home-page'),
     quiz: document.getElementById('quiz-page'),
     results: document.getElementById('results-page'),
@@ -18,26 +36,61 @@ const pages = {
 // Initialize Application
 async function init() {
     try {
-        // Load questions from JSON
-        const response = await fetch('questions_full.json');
-        allQuestions = await response.json();
-        
         // Setup event listeners
         setupEventListeners();
     } catch (error) {
-        console.error('Error loading questions:', error);
-        alert('Failed to load questions. Please refresh the page.');
+        console.error('Error initializing application:', error);
+        alert('Failed to initialize. Please refresh the page.');
     }
 }
 
 // Setup Event Listeners
 function setupEventListeners() {
+    // Certificate selection
+    const certSelectButtons = document.querySelectorAll('.cert-select-btn');
+    certSelectButtons.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            const cert = e.currentTarget.dataset.cert;
+            selectCertification(cert);
+        });
+    });
+    
+    // Quiz controls
     document.getElementById('start-exam-btn').addEventListener('click', startExam);
     document.getElementById('prev-btn').addEventListener('click', previousQuestion);
     document.getElementById('next-btn').addEventListener('click', nextQuestion);
     document.getElementById('retake-btn').addEventListener('click', () => showPage('home'));
     document.getElementById('review-btn').addEventListener('click', () => showPage('review'));
     document.getElementById('back-to-results-btn').addEventListener('click', () => showPage('results'));
+}
+
+// Select Certification
+async function selectCertification(certType) {
+    selectedCertification = certType;
+    const certConfig = CERTIFICATIONS[certType];
+    
+    try {
+        // Show loading
+        showPage('home');
+        document.querySelector('#home-page .header h1').textContent = certConfig.name;
+        document.querySelector('#home-page .subtitle').textContent = certConfig.description;
+        
+        // Load questions for selected certification
+        const response = await fetch(certConfig.questionsFile);
+        allQuestions = await response.json();
+        
+        // Update question count in UI
+        const questionCountEl = document.querySelector('#home-page .feature-card h3');
+        if (questionCountEl && questionCountEl.textContent.includes('Questions')) {
+            questionCountEl.textContent = `${allQuestions.length} Questions`;
+        }
+        
+        console.log(`Loaded ${allQuestions.length} questions for ${certConfig.name}`);
+    } catch (error) {
+        console.error('Error loading certification questions:', error);
+        alert(`Failed to load ${certConfig.name} questions. Please try again.`);
+        showPage('certSelection');
+    }
 }
 
 // Page Navigation
