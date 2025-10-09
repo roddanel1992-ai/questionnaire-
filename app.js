@@ -255,17 +255,29 @@ function nextQuestion() {
 }
 
 function submitExam() {
-    // Count answered questions
-    const answeredCount = userAnswers.filter(ans => ans !== null && ans !== undefined).length;
-    const unansweredCount = currentExam.length - answeredCount;
-    
-    let confirmMessage = 'Are you sure you want to submit your exam?';
-    if (unansweredCount > 0) {
-        confirmMessage = `You have ${unansweredCount} unanswered question(s). Are you sure you want to submit?`;
-    }
-    
-    if (confirm(confirmMessage)) {
-        finishExam();
+    console.log('submitExam called');
+    try {
+        // Count answered questions
+        const answeredCount = userAnswers.filter(ans => ans !== null && ans !== undefined).length;
+        const unansweredCount = currentExam.length - answeredCount;
+        
+        console.log('Answered:', answeredCount, 'Unanswered:', unansweredCount);
+        
+        let confirmMessage = 'Are you sure you want to submit your exam?';
+        if (unansweredCount > 0) {
+            confirmMessage = `You have ${unansweredCount} unanswered question(s). Are you sure you want to submit?`;
+        }
+        
+        const confirmed = confirm(confirmMessage);
+        console.log('User confirmed:', confirmed);
+        
+        if (confirmed) {
+            console.log('Calling finishExam...');
+            finishExam();
+        }
+    } catch (error) {
+        console.error('Error in submitExam:', error);
+        alert('Error submitting exam: ' + error.message);
     }
 }
 
@@ -296,88 +308,128 @@ function updateNavigationButtons() {
 
 // Finish Exam
 function finishExam() {
-    clearInterval(timerInterval);
-    calculateResults();
-    showPage('results');
+    console.log('finishExam called');
+    try {
+        clearInterval(timerInterval);
+        console.log('Timer cleared');
+        
+        calculateResults();
+        console.log('Results calculated');
+        
+        showPage('results');
+        console.log('Showing results page');
+    } catch (error) {
+        console.error('Error in finishExam:', error);
+        alert('Error finishing exam: ' + error.message);
+    }
 }
 
 // Calculate Results
 function calculateResults() {
-    let correctCount = 0;
-    
-    currentExam.forEach((question, index) => {
-        const userAnswerLetter = userAnswers[index];
+    console.log('calculateResults called');
+    try {
+        let correctCount = 0;
         
-        // Find the letter corresponding to the correct answer
-        let correctLetter = null;
-        question.options.forEach((optionText, optIndex) => {
-            if (optionText === question.answer || optionText.trim() === question.answer.trim()) {
-                correctLetter = LETTERS[optIndex];
+        currentExam.forEach((question, index) => {
+            const userAnswerLetter = userAnswers[index];
+            
+            // Find the letter corresponding to the correct answer
+            let correctLetter = null;
+            question.options.forEach((optionText, optIndex) => {
+                if (optionText === question.answer || optionText.trim() === question.answer.trim()) {
+                    correctLetter = LETTERS[optIndex];
+                }
+            });
+            
+            console.log(`Q${index + 1}: User: ${userAnswerLetter}, Correct: ${correctLetter}`);
+            
+            // Check if user's answer matches
+            if (userAnswerLetter === correctLetter) {
+                correctCount++;
             }
         });
         
-        // Check if user's answer matches
-        if (userAnswerLetter === correctLetter) {
-            correctCount++;
-        }
-    });
-    
-    const percentage = Math.round((correctCount / currentExam.length) * 100);
-    const timeTaken = 720 - timeRemaining;
-    
-    // Display results
-    displayResults(correctCount, percentage, timeTaken);
+        const percentage = Math.round((correctCount / currentExam.length) * 100);
+        const timeTaken = 720 - timeRemaining;
+        
+        console.log('Correct:', correctCount, 'Percentage:', percentage, 'Time:', timeTaken);
+        
+        // Display results
+        displayResults(correctCount, percentage, timeTaken);
+    } catch (error) {
+        console.error('Error in calculateResults:', error);
+        alert('Error calculating results: ' + error.message);
+    }
 }
 
 // Display Results
 function displayResults(correctCount, percentage, timeTaken) {
-    // Update score circle
-    const circumference = 2 * Math.PI * 90;
-    const offset = circumference - (percentage / 100) * circumference;
-    document.getElementById('score-progress').style.strokeDashoffset = offset;
-    
-    // Update score percentage
-    document.getElementById('score-percentage').textContent = `${percentage}%`;
-    
-    // Update title and summary
-    const resultsTitle = document.getElementById('results-title');
-    const resultsSummary = document.getElementById('results-summary');
-    
-    if (percentage >= 70) {
-        resultsTitle.textContent = '🎉 Congratulations!';
-        resultsTitle.style.color = '#4caf50';
-        resultsSummary.textContent = 'You passed the practice exam! You\'re well prepared for the AWS DVA-C02 certification.';
-    } else {
-        resultsTitle.textContent = '📚 Keep Practicing!';
-        resultsTitle.style.color = '#FF9900';
-        resultsSummary.textContent = 'Keep studying and try again. Review the explanations to improve your understanding.';
+    console.log('displayResults called with:', correctCount, percentage, timeTaken);
+    try {
+        // Update score circle
+        const circumference = 2 * Math.PI * 90;
+        const offset = circumference - (percentage / 100) * circumference;
+        const scoreProgress = document.getElementById('score-progress');
+        if (scoreProgress) {
+            scoreProgress.style.strokeDashoffset = offset;
+        }
+        
+        // Update score percentage
+        const scorePercentageEl = document.getElementById('score-percentage');
+        if (scorePercentageEl) {
+            scorePercentageEl.textContent = `${percentage}%`;
+        }
+        
+        // Update title and summary
+        const resultsTitle = document.getElementById('results-title');
+        const resultsSummary = document.getElementById('results-summary');
+        
+        if (resultsTitle && resultsSummary) {
+            if (percentage >= 70) {
+                resultsTitle.textContent = '🎉 Congratulations!';
+                resultsTitle.style.color = '#4caf50';
+                resultsSummary.textContent = 'You passed the practice exam! You\'re well prepared for the certification.';
+            } else {
+                resultsTitle.textContent = '📚 Keep Practicing!';
+                resultsTitle.style.color = '#FF9900';
+                resultsSummary.textContent = 'Keep studying and try again. Review the explanations to improve your understanding.';
+            }
+        }
+        
+        // Display detailed stats
+        const minutes = Math.floor(timeTaken / 60);
+        const seconds = timeTaken % 60;
+        const timeStr = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+        
+        const incorrectCount = currentExam.length - correctCount;
+        
+        const resultsDetails = document.getElementById('results-details');
+        if (resultsDetails) {
+            resultsDetails.innerHTML = `
+                <div class="result-stat">
+                    <span class="result-stat-label">Correct Answers</span>
+                    <span class="result-stat-value correct">${correctCount} / ${currentExam.length}</span>
+                </div>
+                <div class="result-stat">
+                    <span class="result-stat-label">Incorrect Answers</span>
+                    <span class="result-stat-value incorrect">${incorrectCount} / ${currentExam.length}</span>
+                </div>
+                <div class="result-stat">
+                    <span class="result-stat-label">Time Taken</span>
+                    <span class="result-stat-value">${timeStr}</span>
+                </div>
+                <div class="result-stat">
+                    <span class="result-stat-label">Pass Threshold</span>
+                    <span class="result-stat-value">70%</span>
+                </div>
+            `;
+        }
+        
+        console.log('Results displayed successfully');
+    } catch (error) {
+        console.error('Error in displayResults:', error);
+        alert('Error displaying results: ' + error.message);
     }
-    
-    // Display detailed stats
-    const minutes = Math.floor(timeTaken / 60);
-    const seconds = timeTaken % 60;
-    const timeStr = `${minutes}:${seconds.toString().padStart(2, '0')}`;
-    
-    const incorrectCount = currentExam.length - correctCount;
-    
-    document.getElementById('results-details').innerHTML = `
-        <div class="result-stat">
-            <span class="result-stat-label">Correct Answers</span>
-            <span class="result-stat-value correct">${correctCount} / ${currentExam.length}</span>
-        </div>
-        <div class="result-stat">
-            <span class="result-stat-label">Incorrect Answers</span>
-            <span class="result-stat-value incorrect">${incorrectCount} / ${currentExam.length}</span>
-        </div>
-        <div class="result-stat">
-            <span class="result-stat-label">Time Taken</span>
-            <span class="result-stat-value">${timeStr}</span>
-        </div>
-        <div class="result-stat">
-            <span class="result-stat-label">Pass Threshold</span>
-            <span class="result-stat-value">70%</span>
-        </div>
-    `;
 }
 
 // Display Review
