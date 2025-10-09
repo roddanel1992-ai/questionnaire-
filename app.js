@@ -78,7 +78,14 @@ function setupEventListeners() {
     // Quiz controls
     document.getElementById('start-exam-btn').addEventListener('click', startExam);
     document.getElementById('prev-btn').addEventListener('click', previousQuestion);
-    document.getElementById('next-btn').addEventListener('click', nextQuestion);
+    
+    // Next/Submit button with explicit handling
+    const nextBtn = document.getElementById('next-btn');
+    nextBtn.addEventListener('click', (e) => {
+        console.log('Next/Submit button clicked');
+        nextQuestion();
+    });
+    
     document.getElementById('retake-btn').addEventListener('click', () => showPage('home'));
     document.getElementById('review-btn').addEventListener('click', () => showPage('review'));
     document.getElementById('back-to-results-btn').addEventListener('click', () => showPage('results'));
@@ -262,6 +269,22 @@ function nextQuestion() {
         currentQuestionIndex++;
         displayQuestion();
     } else {
+        // On the last question, show confirmation before submitting
+        submitExam();
+    }
+}
+
+function submitExam() {
+    // Count answered questions
+    const answeredCount = userAnswers.filter(ans => ans && ans.length > 0).length;
+    const unansweredCount = currentExam.length - answeredCount;
+    
+    let confirmMessage = 'Are you sure you want to submit your exam?';
+    if (unansweredCount > 0) {
+        confirmMessage = `You have ${unansweredCount} unanswered question(s). Are you sure you want to submit?`;
+    }
+    
+    if (confirm(confirmMessage)) {
         finishExam();
     }
 }
@@ -279,6 +302,7 @@ function updateNavigationButtons() {
                 <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
         `;
+        nextBtn.classList.add('submit-btn');
     } else {
         nextBtn.innerHTML = `
             Next
@@ -286,6 +310,7 @@ function updateNavigationButtons() {
                 <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
         `;
+        nextBtn.classList.remove('submit-btn');
     }
 }
 

@@ -397,6 +397,21 @@ body {
     transform: none;
 }
 
+.btn-primary.submit-btn {
+    background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
+    box-shadow: 0 5px 20px rgba(76, 175, 80, 0.4);
+    animation: pulse 2s infinite;
+}
+
+.btn-primary.submit-btn:hover {
+    box-shadow: 0 8px 25px rgba(76, 175, 80, 0.6);
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+}
+
 .btn-large {
     width: 100%;
     padding: 20px 40px;
