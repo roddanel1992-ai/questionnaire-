@@ -3,7 +3,7 @@ let selectedCertification = null;
 let allQuestions = [];
 let currentExam = [];
 let currentQuestionIndex = 0;
-let userAnswers = []; // Array of arrays for multiple selections
+let userAnswers = []; // Array of single answers
 let timerInterval = null;
 let timeRemaining = 720; // 12 minutes in seconds
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F'];
@@ -135,7 +135,7 @@ function startExam() {
     // Select 10 random questions
     currentExam = selectRandomQuestions(allQuestions, 10);
     currentQuestionIndex = 0;
-    userAnswers = new Array(currentExam.length).fill(null).map(() => []); // Array of arrays for multiple selections
+    userAnswers = new Array(currentExam.length).fill(null); // Array of single answers
     timeRemaining = 720; // Reset timer to 12 minutes
     
     showPage('quiz');
@@ -181,11 +181,8 @@ function updateTimerDisplay() {
 function displayQuestion() {
     const question = currentExam[currentQuestionIndex];
     
-    // Update question text with selection instruction
-    const correctCount = question.correctCount || 1;
-    const instruction = correctCount === 1 ? "(Select 1)" : `(Select ${correctCount})`;
-    document.getElementById('question-text').innerHTML = 
-        `${question.question} <span class="selection-hint">${instruction}</span>`;
+    // Update question text
+    document.getElementById('question-text').textContent = question.question;
     
     // Update progress
     document.getElementById('current-question').textContent = currentQuestionIndex + 1;
@@ -205,20 +202,17 @@ function displayQuestion() {
         option.dataset.answer = letter;
         option.dataset.text = text;
         
-        const currentAnswers = userAnswers[currentQuestionIndex] || [];
-        if (currentAnswers.includes(letter)) {
+        const currentAnswer = userAnswers[currentQuestionIndex];
+        if (currentAnswer === letter) {
             option.classList.add('selected');
         }
         
         option.innerHTML = `
-            <div class="option-checkbox">
-                <div class="checkbox ${currentAnswers.includes(letter) ? 'checked' : ''}"></div>
-            </div>
             <div class="option-letter">${letter}</div>
             <div class="option-text">${text}</div>
         `;
         
-        option.addEventListener('click', () => toggleAnswer(letter));
+        option.addEventListener('click', () => selectAnswer(letter));
         optionsContainer.appendChild(option);
     });
     
@@ -226,32 +220,18 @@ function displayQuestion() {
     updateNavigationButtons();
 }
 
-// Toggle Answer (for multiple selection)
-function toggleAnswer(letter) {
-    const currentAnswers = userAnswers[currentQuestionIndex] || [];
-    const index = currentAnswers.indexOf(letter);
-    
-    if (index > -1) {
-        // Remove answer
-        currentAnswers.splice(index, 1);
-    } else {
-        // Add answer
-        currentAnswers.push(letter);
-    }
-    
-    userAnswers[currentQuestionIndex] = currentAnswers;
+// Select Answer (single selection)
+function selectAnswer(letter) {
+    userAnswers[currentQuestionIndex] = letter;
     
     // Update UI
     document.querySelectorAll('.option').forEach(opt => {
         const optLetter = opt.dataset.answer;
-        const checkbox = opt.querySelector('.checkbox');
         
-        if (currentAnswers.includes(optLetter)) {
+        if (optLetter === letter) {
             opt.classList.add('selected');
-            checkbox.classList.add('checked');
         } else {
             opt.classList.remove('selected');
-            checkbox.classList.remove('checked');
         }
     });
 }
@@ -276,7 +256,7 @@ function nextQuestion() {
 
 function submitExam() {
     // Count answered questions
-    const answeredCount = userAnswers.filter(ans => ans && ans.length > 0).length;
+    const answeredCount = userAnswers.filter(ans => ans !== null && ans !== undefined).length;
     const unansweredCount = currentExam.length - answeredCount;
     
     let confirmMessage = 'Are you sure you want to submit your exam?';
@@ -326,23 +306,19 @@ function calculateResults() {
     let correctCount = 0;
     
     currentExam.forEach((question, index) => {
-        const userAnswerLetters = userAnswers[index] || [];
+        const userAnswerLetter = userAnswers[index];
         
-        // Find the letter(s) corresponding to the correct answer
-        const correctLetters = [];
+        // Find the letter corresponding to the correct answer
+        let correctLetter = null;
         question.options.forEach((optionText, optIndex) => {
             if (optionText === question.answer || optionText.trim() === question.answer.trim()) {
-                correctLetters.push(LETTERS[optIndex]);
+                correctLetter = LETTERS[optIndex];
             }
         });
         
         // Check if user's answer matches
-        if (userAnswerLetters.length === correctLetters.length) {
-            const sortedUser = [...userAnswerLetters].sort().join('');
-            const sortedCorrect = [...correctLetters].sort().join('');
-            if (sortedUser === sortedCorrect) {
-                correctCount++;
-            }
+        if (userAnswerLetter === correctLetter) {
+            correctCount++;
         }
     });
     
@@ -410,19 +386,17 @@ function displayReview() {
     reviewContainer.innerHTML = '';
     
     currentExam.forEach((question, index) => {
-        const userAnswerLetters = userAnswers[index] || [];
+        const userAnswerLetter = userAnswers[index];
         
-        // Find correct answer letter(s)
-        const correctLetters = [];
+        // Find correct answer letter
+        let correctLetter = null;
         question.options.forEach((optionText, optIndex) => {
             if (optionText === question.answer || optionText.trim() === question.answer.trim()) {
-                correctLetters.push(LETTERS[optIndex]);
+                correctLetter = LETTERS[optIndex];
             }
         });
         
-        const sortedUser = [...userAnswerLetters].sort().join('');
-        const sortedCorrect = [...correctLetters].sort().join('');
-        const isCorrect = sortedUser === sortedCorrect && userAnswerLetters.length > 0;
+        const isCorrect = userAnswerLetter === correctLetter;
         
         const reviewDiv = document.createElement('div');
         reviewDiv.className = 'review-question';
@@ -431,17 +405,17 @@ function displayReview() {
             const letter = LETTERS[optIndex];
             let classes = ['review-option'];
             
-            if (userAnswerLetters.includes(letter)) {
+            if (userAnswerLetter === letter) {
                 classes.push('user-answer');
             }
-            if (correctLetters.includes(letter)) {
+            if (correctLetter === letter) {
                 classes.push('correct-answer');
             }
             
             let badge = '';
-            if (correctLetters.includes(letter)) {
+            if (correctLetter === letter) {
                 badge = '<span style="margin-left: auto; color: #4caf50; font-weight: bold;">✓ Correct</span>';
-            } else if (userAnswerLetters.includes(letter)) {
+            } else if (userAnswerLetter === letter) {
                 badge = '<span style="margin-left: auto; color: #ff4444; font-weight: bold;">✗ Wrong</span>';
             }
             
